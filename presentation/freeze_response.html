@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        background-color: #F4F4F5;
+        font-family: 'Inter', sans-serif;
+        color: #3F3F46;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid #18181B;
+      }
+      .header {
+        border-bottom: 1px solid #18181B;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        min-height: 120px;
+      }
+      h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 32px;
+        color: #18181B;
+        text-transform: uppercase;
+      }
+      .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        flex-grow: 1;
+      }
+      .column {
+        padding-top: 30px;
+        padding-left: 40px;
+        padding-right: 40px;
+        border-right: 1px solid #18181B;
+      }
+      .column:last-child {
+        border-right: none;
+      }
+      .label {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 18px;
+        color: #0284C7;
+        margin-bottom: 15px;
+        display: block;
+      }
+      .box {
+        border: 1px solid #18181B;
+        padding-top: 15px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background: #FFFFFF;
+        margin-bottom: 20px;
+        min-height: 100px;
+      }
+      .box-title {
+        font-family: 'Roboto Mono', monospace;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 10px;
+        color: #18181B;
+      }
+      .box-text {
+        font-size: 16px;
+        line-height: 1.4;
+      }
+      .warning-box {
+        background-color: #18181B;
+        color: #FFFFFF;
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 18px;
+        margin-top: 20px;
+      }
+      .insight {
+        margin-top: 30px;
+        font-weight: 700;
+        font-size: 20px;
+        color: #0284C7;
+        border-top: 2px solid #0284C7;
+        padding-top: 15px;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>The "Freeze" response is a tactical delay, not a lack of discipline</h2>
+        </div>
+        <div class="grid-container">
+            <div class="column">
+                <span class="label">[01] THE STRESSOR</span>
+                <div class="box">
+                    <div class="box-title">ENVIRONMENT: QUIET</div>
+                    <div class="box-text">In non-chaotic settings, the system lacks the "speed" it uses to outrun the Hum.</div>
+                </div>
+                <div class="box">
+                    <div class="box-title">TRIGGER: MUNDANE</div>
+                    <div class="box-text">Paperwork, mail, or appointments are perceived by the brainstem as "predators."</div>
+                </div>
+            </div>
+            <div class="column">
+                <span class="label">[02] SYSTEM HIJACK</span>
+                <div class="box">
+                    <div class="box-title">EXECUTIVE DYSFUNCTION</div>
+                    <div class="box-text">The prefrontal cortex goes offline. No action is biologically possible.</div>
+                </div>
+                <div class="warning-box">
+                    ERROR: PROCESS_HALTED<br>
+                    REASON: NERVOUS_SYSTEM_VETO<br>
+                    STATUS: FREEZE_ACTIVE
+                </div>
+            </div>
+            <div class="column">
+                <span class="label">[03] THE CONSEQUENCE</span>
+                <div class="box">
+                    <div class="box-title">THE FTA LOOP</div>
+                    <div class="box-text">Failure to Appear leads to legal/social penalties, fueling more stress and more freeze.</div>
+                </div>
+                <div class="insight">
+                    KEY INSIGHT: You cannot "willpower" your way out of a physiological freeze.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

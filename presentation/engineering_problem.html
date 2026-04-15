@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        background-color: #F4F4F5;
+        font-family: 'Inter', sans-serif;
+        color: #3F3F46;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid #18181B;
+      }
+      .header {
+        border-bottom: 1px solid #18181B;
+        padding-top: 40px; /* keep title top padding */
+        padding-left: 60px;
+        padding-right: 60px;
+        min-height: 100px; /* reduced from 120 to save vertical space */
+      }
+      h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 32px;
+        color: #18181B;
+        text-transform: uppercase;
+      }
+      .content-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* removed flex-grow to avoid forcing extra height */
+      }
+      .left-panel {
+        border-right: 1px solid #18181B;
+        padding-top: 24px; /* reduced from 40 */
+        padding-left: 60px;
+        padding-right: 40px;
+      }
+      .right-panel {
+        padding-top: 24px; /* reduced from 40 */
+        padding-left: 40px;
+        padding-right: 60px;
+        background-color: #E5E7EB;
+      }
+      .point {
+        margin-bottom: 18px; /* reduced from 30 */
+        font-size: 20px;
+        line-height: 1.5;
+      }
+      .point strong {
+        color: #0284C7;
+        font-family: 'Roboto Mono', monospace;
+      }
+      .flow-box {
+        border: 1px solid #18181B;
+        padding-top: 12px; /* reduced from 20 */
+        padding-left: 16px; /* slightly reduced */
+        padding-right: 16px;
+        margin-bottom: 12px; /* reduced from 20 */
+        background: white;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 18px;
+        text-align: center;
+      }
+      .arrow {
+        text-align: center;
+        font-size: 24px;
+        color: #0284C7;
+        margin-bottom: 8px; /* reduced from 10 */
+      }
+      .insight-box {
+        border: 2px solid #0284C7;
+        padding-top: 12px; /* reduced from 20 */
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-top: 20px; /* reduced from 40 */
+        font-weight: 700;
+        color: #18181B;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>Trauma is a predictable engineering problem, not a character flaw</h2>
+        </div>
+        <div class="content-grid">
+            <div class="left-panel">
+                <div class="point">
+                    <strong>[SHIFT]</strong> Traditional views focus on "vulnerability" or "brokenness," which creates shame and stalls recovery.
+                </div>
+                <div class="point">
+                    <strong>[METHOD]</strong> The WRH Curriculum shifts the perspective to <strong>System Logic Translation</strong>, treating responses as mechanical loops.
+                </div>
+                <div class="point">
+                    <strong>[GOAL]</strong> We decode the "machine" by understanding how survival programs were installed and why they continue to run.
+                </div>
+                <div class="insight-box">
+                    KEY INSIGHT: You aren't broken; your system is executing high-performance survival code.
+                </div>
+            </div>
+            <div class="right-panel">
+                <div class="flow-box">OBSERVE BEHAVIOR</div>
+                <div class="arrow">↓</div>
+                <div class="flow-box">TRANSLATE THE LOOP</div>
+                <div class="arrow">↓</div>
+                <div class="flow-box">ENABLE PARTICIPANT CONTROL</div>
+                <div class="point" style="margin-top: 20px;"> <!-- reduced from 40 -->
+                    This neutral, technical approach reduces the risk of re-traumatization and empowers the participant.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

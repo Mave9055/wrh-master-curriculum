@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        background-color: #F4F4F5;
+        font-family: 'Inter', sans-serif;
+        color: #3F3F46;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 1px solid #18181B;
+      }
+      .header {
+        border-bottom: 1px solid #18181B;
+        padding-top: 40px;
+        padding-left: 60px;
+        padding-right: 60px;
+        min-height: 120px;
+      }
+      h2 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 32px;
+        color: #18181B;
+        text-transform: uppercase;
+      }
+      .main-content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        /* removed flex-grow to avoid stretching the content to fill the container */
+        align-items: start;
+      }
+      .panel {
+        padding-top: 16px; /* reduced inner padding */
+        padding-left: 60px;
+        padding-right: 60px;
+      }
+      .panel-left {
+        border-right: 1px solid #18181B;
+      }
+      .sub-header {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 24px;
+        color: #0284C7;
+        margin-bottom: 12px;
+        border-bottom: 1px solid #0284C7;
+        display: inline-block;
+      }
+      .point {
+        margin-bottom: 12px; /* reduced spacing between points */
+        font-size: 18px;
+        line-height: 1.4;
+      }
+      .point strong {
+        color: #18181B;
+      }
+      .schematic-box {
+        border: 1px dashed #18181B;
+        padding-top: 12px; /* reduced */
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #FFFFFF;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 16px;
+      }
+      .status-tag {
+        background: #18181B;
+        color: #FFFFFF;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        display: inline-block;
+        margin-bottom: 8px;
+      }
+      .key-insight {
+        margin-top: 12px; /* reduced from 40 */
+        font-weight: 700;
+        border-top: 1px solid #18181B;
+        padding-top: 12px;
+      }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="header">
+            <h2>Survival is wiring that was soldered on during the "Original War"</h2>
+        </div>
+        <div class="main-content">
+            <div class="panel panel-left">
+                <div class="sub-header">THE INSTALLATION</div>
+                <div class="point">
+                    <strong>[GLASS BOX & BLANKET]</strong> Early life stressors "solder" the threat dial to the <strong>ON</strong> position.
+                </div>
+                <div class="point">
+                    <strong>[ADAPTATION]</strong> Trauma responses are physiological wiring designed to keep you alive in extreme environments.
+                </div>
+                <div class="schematic-box">
+                    <div class="status-tag">SYSTEM STATUS: ARMED</div>
+                    ENVIRONMENT: DANGER IS BASELINE<br>
+                    THREAT DIAL: PERMANENTLY ON<br>
+                    CORTISOL DUMP: AUTOMATIC
+                </div>
+            </div>
+            <div class="panel">
+                <div class="sub-header">THE MECHANISM</div>
+                <div class="point">
+                    <strong>[NEUROCEPTION]</strong> An automatic, sub-cortical scan for danger that happens before you even have a thought.
+                </div>
+                <div class="point">
+                    <strong>[DATA OVER EMOTION]</strong> What looks like "anxiety" is actually high-performance data from a system that refuses to stop scanning.
+                </div>
+                <div class="point key-insight">
+                    KEY INSIGHT: Your wiring is a brilliant adaptation, not a defect.
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

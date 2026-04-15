@@ -1,0 +1,132 @@
+{
+  "project_info": {
+    "title": "\"What Really Happened\" (WRH) 75-Session Master Curriculum",
+    "created": 1776235217.1081662,
+    "last_updated": 1776235672.4343245,
+    "total_slides": 10
+  },
+  "slides": [
+    {
+      "id": "title_slide",
+      "state": "edited",
+      "pageNum": 1
+    },
+    {
+      "id": "engineering_problem",
+      "state": "edited",
+      "pageNum": 2
+    },
+    {
+      "id": "survival_wiring",
+      "state": "edited",
+      "pageNum": 3
+    },
+    {
+      "id": "hum_mask",
+      "state": "edited",
+      "pageNum": 4
+    },
+    {
+      "id": "freeze_response",
+      "state": "edited",
+      "pageNum": 5
+    },
+    {
+      "id": "part_i_map",
+      "state": "edited",
+      "pageNum": 6
+    },
+    {
+      "id": "part_ii_journey",
+      "state": "edit_pending",
+      "pageNum": 7
+    },
+    {
+      "id": "part_iii_specialization",
+      "state": "edit_pending",
+      "pageNum": 8
+    },
+    {
+      "id": "master_manual_self",
+      "state": "edit_pending",
+      "pageNum": 9
+    },
+    {
+      "id": "institutional_solution",
+      "state": "edit_pending",
+      "pageNum": 10
+    }
+  ],
+  "outline": [
+    {
+      "id": "title_slide",
+      "title": "\"What Really Happened\" (WRH) 75-Session Master Curriculum",
+      "summary": "Title slide introducing the 75-Session Master Curriculum as a technical system logic translation and regulation training package.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "engineering_problem",
+      "title": "Trauma is a predictable engineering problem, not a character flaw",
+      "summary": "Shifting the perspective from vulnerability to system logic translation, treating trauma responses as mechanical loops.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "survival_wiring",
+      "title": "Survival is wiring that was soldered on during the \"Original War\"",
+      "summary": "Explaining trauma responses as physiological adaptations (wiring) and the concept of neuroception.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "hum_mask",
+      "title": "The \"Hum\" is a constant fire alarm that drives high-performance masks",
+      "summary": "Discussing the \"Mask of Competence\" and the internal \"Hum\" that drives high-functioning behavior in chaos.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "freeze_response",
+      "title": "The \"Freeze\" response is a tactical delay, not a lack of discipline",
+      "summary": "Analyzing the freeze response as a nervous system hijacking and its impact on executive function.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "part_i_map",
+      "title": "Part I: The System Logic Map (Sessions 1–26)",
+      "summary": "Overview of the 26 Laws of Survival and the foundation of system logic mapping.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "part_ii_journey",
+      "title": "Part II: The Core Operational Journey (Sessions 27–56)",
+      "summary": "Overview of the 30-session pilot program focusing on the mechanism of failure and somatic records.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "part_iii_specialization",
+      "title": "Part III: Advanced System Specialization (Sessions 57–75)",
+      "summary": "Overview of the 19-session advanced series addressing institutional betrayal and sovereignty.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "master_manual_self",
+      "title": "The Master Manual of Self is the final integration of the 75-session flow",
+      "summary": "Concluding with the concept of becoming the architect and driver of one's own life through system integration.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    },
+    {
+      "id": "institutional_solution",
+      "title": "A standardized, non-clinical solution for institutional scale",
+      "summary": "Highlighting the curriculum's design for federal and institutional buyers and its facilitator standardization.",
+      "image_plan": "Use a suitable image if needed",
+      "slide_template_key": ""
+    }
+  ]
+}

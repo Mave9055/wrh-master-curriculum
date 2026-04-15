@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+      html,body { height:100%; margin:0; }
+      .slide-container {
+        width: 1280px;
+        min-height: 720px;
+        box-sizing: border-box;
+        background-color: #F4F4F5;
+        font-family: 'Inter', sans-serif;
+        color: #3F3F46;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        border: 20px solid #18181B;
+        /* lift the container 1px to ensure total page bottom < 720px */
+        margin-top: -1px;
+      }
+      .header-box {
+        border: 1px solid #18181B;
+        padding: 24px; /* reduced inner padding */
+        text-align: center;
+        max-width: 1000px;
+      }
+      h1 {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 64px;
+        color: #18181B;
+        margin-bottom: 20px;
+        text-transform: uppercase;
+      }
+      .subtitle {
+        font-size: 32px;
+        color: #0284C7;
+        font-weight: 700;
+      }
+      .footer {
+        position: absolute;
+        bottom: 24px; /* reduced bottom offset */
+        font-family: 'Roboto Mono', monospace;
+        font-size: 16px;
+        color: #71717A;
+      }
+      .bracket {
+        font-family: 'Roboto Mono', monospace;
+        font-size: 80px;
+        color: #0284C7;
+        position: absolute;
+      }
+      .bracket-left { top: 50%; left: 40px; transform: translateY(-50%); }
+      .bracket-right { top: 50%; right: 40px; transform: translateY(-50%); }
+    </style>
+</head>
+<body>
+    <div class="slide-container">
+        <div class="bracket bracket-left">[</div>
+        <div class="header-box">
+            <h1>"What Really Happened" (WRH) 75-Session Master Curriculum</h1>
+            <div class="subtitle">The Complete System Logic Translation & Regulation Training Package</div>
+        </div>
+        <div class="bracket bracket-right">]</div>
+        <div class="footer">PROPRIETARY INTELLECTUAL PROPERTY OF CAPITOL CONTRACTS LLC</div>
+    </div>
+</body>
+</html>
