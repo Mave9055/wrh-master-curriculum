@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/capitol_contracts_logo.png" alt="Capitol Contracts Logo" width="400">
+</p>
+
 # "What Really Happened" (WRH) 75-Session Master Curriculum
 ## The Complete System Logic Translation & Regulation Training Package
 

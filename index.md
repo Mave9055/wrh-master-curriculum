@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="assets/capitol_contracts_logo.png" alt="Capitol Contracts Logo" width="400">
+</p>
+
 # "What Really Happened" (WRH) Master Curriculum
 [**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
 
