@@ -7,8 +7,9 @@
 
 ---
 
-### **The Complete System Logic Translation & Regulation Training Package**
-The **75-Session Master Curriculum** is a proprietary, non-clinical psychoeducational intervention designed by **Capitol Contracts LLC**. It is a structured, replicable program for behavioral health, recovery, and risk mitigation, with a heavy emphasis on veterans.
+### **Introduction to the "What Really Happened" (WRH) Master Curriculum**
+
+This document serves as an introduction to the "What Really Happened" (WRH) Master Curriculum, a comprehensive, proprietary, and non-clinical psychoeducational intervention developed by **Capitol Contracts LLC**. Designed with a structured and replicable framework, this 75-session program is specifically tailored for behavioral health, recovery, and risk mitigation, with a critical emphasis on supporting the veteran population. Capitol Contracts LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) committed to delivering high-impact solutions for federal agencies, including the Department of Veterans Affairs (VA), Department of Defense (DoD), Department of Labor (DOL), and the Substance Abuse and Mental Health Services Administration (SAMHSA).
 
 ---
 
@@ -25,14 +26,20 @@ The *19-Session Advanced Series*. These sessions focus on advanced system specia
 The *Special Operational Addendum* and professional toolkit. Includes the **Crisis Package**, **Master Glossary**, **Pricing**, and **Certification Path**.
 
 ---
+### **Institutional and Contracting Information**
 
-### **Institutional Information**
-- [**Master Glossary**](./Part-IV/Glossary.md)
-- [**Pricing and Tiers**](./Part-IV/Pricing_and_Tiers.md)
-- [**Certification Path**](./Part-IV/Certification_Path.md)
-- [**IP and Usage Rights**](./Part-IV/IP_and_Usage_Rights.md)
+Capitol Contracts LLC is a Service-Disabled Veteran-Owned Small Business (SDVOSB) specializing in professional training and educational support services. Our federal contracting identifiers are:
+
+*   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
+*   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
+
+For detailed information regarding program components, pricing, certification, and intellectual property, please refer to the following:
+
+*   [**Master Glossary**](./Part-IV/Glossary.md)
+*   [**Pricing and Tiers**](./Part-IV/Pricing_and_Tiers.md)
+*   [**Certification Path**](./Part-IV/Certification_Path.md)
+*   [**IP and Usage Rights**](./Part-IV/IP_and_Usage_Rights.md)
 
 ---
-[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
-*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

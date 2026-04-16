@@ -1,40 +1,49 @@
-# WRH Master Curriculum: IP and Usage Rights
+# **WRH Master Curriculum: Intellectual Property (IP) and Usage Rights**
 
 [**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
 
 ---
 
-The **What Really Happened (WRH)** 76-Session Master Curriculum is the proprietary intellectual property of **Capitol Contracts LLC**. All rights are reserved.
+The **"What Really Happened" (WRH) Master Curriculum**, comprising 76 sessions, is the exclusive and proprietary intellectual property of **Capitol Contracts LLC**. All rights, including but not limited to copyrights, trademarks, and trade secrets, are expressly reserved. This document outlines the terms and conditions governing the use, reproduction, and distribution of the WRH Master Curriculum, ensuring compliance with federal acquisition regulations and protecting the integrity of Capitol Contracts LLC's proprietary assets.
 
-## **Proprietary Framework**
-The WRH curriculum, including the **System Logic Translation** framework, the **26 Laws of Survival**, and the **RGP (Regulation Grounding Protocol)**, is a unique educational methodology. These concepts, structures, and scripts are protected under international copyright and trademark laws.
+## **1.0 Proprietary Framework and Intellectual Property Rights**
 
-### **1. Usage Restrictions**
-Institutional buyers are granted a limited, non-transferable license to deliver the WRH curriculum under the following conditions:
-*   **No Summarization**: No part of the 76 sessions may be omitted, summarized, or altered without written authorization.
-*   **No Redistribution**: This curriculum may not be shared, resold, or redistributed outside the purchasing institution or cohort.
-*   **No Commercial Gain**: The curriculum may not be used for profit or as a standalone commercial product by the facilitator or institution.
+The WRH Master Curriculum, encompassing the **System Logic Translation** framework, the **26 Laws of Survival**, the **Regulation Grounding Protocol (RGP)**, and all associated methodologies, content, structures, and scripts, constitutes a unique and proprietary educational methodology. These intellectual assets are rigorously protected under applicable international and domestic copyright, trademark, and trade secret laws. Capitol Contracts LLC retains all rights, title, and interest in and to the WRH Master Curriculum.
 
-### **2. Attribution & Branding**
-All delivery of the WRH curriculum must include the following attribution on all digital and physical materials:
+## **2.0 Authorized Usage and Restrictions**
+
+Institutional purchasers, including federal agencies, are granted a limited, non-exclusive, non-transferable, and revocable license to utilize the WRH Master Curriculum solely for internal, non-commercial psychoeducational purposes, strictly under the following conditions:
+
+*   **2.1 Content Integrity**: The integrity of the 76-session curriculum must be maintained. No portion of the curriculum, including individual sessions, may be omitted, summarized, modified, or altered in any manner without the express prior written authorization of Capitol Contracts LLC.
+*   **2.2 Restricted Redistribution**: The curriculum, in whole or in part, shall not be shared, resold, sublicensed, or redistributed to any third party or entity outside the purchasing institution or designated cohort without explicit written consent from Capitol Contracts LLC.
+*   **2.3 Non-Commercial Use**: The curriculum is licensed for internal institutional use only and shall not be exploited for direct commercial gain, resale as a standalone product, or integration into commercial offerings by the licensee or its facilitators.
+
+## **3.0 Attribution and Branding Requirements**
+
+All authorized deliveries and reproductions of the WRH Master Curriculum, whether in digital or physical format, shall prominently display the following attribution:
+
 > "Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved."
 
-The **WRH logo** and branding must remain intact on all presentation slides and participant workbooks.
+Furthermore, the **WRH logo** and associated branding elements must remain intact and unaltered on all presentation slides, participant workbooks, and any other curriculum-related materials. Any deviation from these branding guidelines requires explicit written approval from Capitol Contracts LLC.
 
-### **3. Liability & Indemnification**
-Capitol Contracts LLC assumes no liability for the delivery of this non-clinical curriculum. Facilitators are responsible for adhering to all safety protocols, including the **SPI (Safety Planning Intervention)** warm handoff.
+## **4.0 Limitation of Liability and Indemnification**
 
-### **4. Federal & Institutional Compliance**
-This curriculum is designed to meet **VA/DoD clinical practice guidelines** and **Joint Commission standards**. Any deviation from the provided scripts or protocols voids the compliance certification of the delivery.
+Capitol Contracts LLC disclaims all liability for the direct or indirect delivery, implementation, or outcomes of this non-clinical psychoeducational curriculum. Facilitators and institutions are solely responsible for ensuring strict adherence to all established safety protocols, including the **Safety Planning Intervention (SPI)** warm handoff procedures, and for exercising professional judgment in all aspects of program delivery. The purchasing institution agrees to indemnify and hold harmless Capitol Contracts LLC from any claims, damages, or liabilities arising from the use or misuse of the WRH Master Curriculum.
+
+## **5.0 Federal and Institutional Compliance Mandates**
+
+The WRH Master Curriculum is meticulously designed to align with and support **Department of Veterans Affairs (VA) and Department of Defense (DoD) clinical practice guidelines**, as well as **Joint Commission standards** for behavioral health services. Adherence to the provided scripts, protocols, and facilitator guidelines is paramount. Any unauthorized deviation from the established curriculum content or delivery methodology will immediately void the compliance certification of the delivery and may result in the revocation of usage rights.
 
 ---
 
-## **About Capitol Contracts LLC**
-Capitol Contracts LLC is a **Service-Disabled Veteran-Owned Small Business (SDVOSB)**. 
-- **UEI**: HH77KN5AV5X7
-- **CAGE**: 9ZFJ6
+## **6.0 About Capitol Contracts LLC**
 
-For legal inquiries or licensing permissions, please contact our legal department.
+Capitol Contracts LLC is a distinguished **Service-Disabled Veteran-Owned Small Business (SDVOSB)**, committed to providing high-quality professional training and psychoeducational support services. Our expertise and operational structure are aligned with federal contracting requirements, ensuring seamless engagement with government agencies. Our federal contracting identifiers are:
+
+*   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
+*   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
+
+For legal inquiries, formal licensing permissions, or detailed discussions regarding intellectual property and usage rights, please contact our legal department. We are dedicated to transparent and compliant partnerships.
 
 ---
 ---

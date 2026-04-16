@@ -4,7 +4,7 @@
 
 ---
 
-This glossary defines the proprietary technical terminology used throughout the **What Really Happened (WRH)** 76-Session Master Curriculum. These terms are foundational to the **System Logic Translation** framework.
+This **Master Glossary** provides comprehensive definitions for the proprietary technical terminology integral to the **"What Really Happened" (WRH) Master Curriculum**. Developed to ensure clarity and consistent understanding, this glossary supports federal agencies and Contracting Officers (COs) in the precise interpretation and implementation of the **System Logic Translation** framework. The terms herein are foundational to the curriculum's psychoeducational intervention, particularly in contexts relevant to the Department of Veterans Affairs (VA), Department of Defense (DoD), Department of Labor (DOL), and the Substance Abuse and Mental Health Services Administration (SAMHSA).
 
 | Term | Definition | System Context |
 | :--- | :--- | :--- |
