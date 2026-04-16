@@ -1,4 +1,8 @@
 # SESSION 76: CRISIS, SUICIDE RISK, AND STAYING ALIVE
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part IV: Special Operational Addendum – VERSION 7.0
 
 **Course:** What Really Happened: A Trauma Education Series
@@ -269,4 +273,7 @@ Thank you.
 
 ---
 **END OF SESSION 76 – VERSION 7.0**
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

@@ -1,6 +1,22 @@
 # Part IV: Facilitator Standardization Toolkit
-A specialized operational series focusing on crisis management, suicide risk, and facilitator standardization.
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
 
-- [Session_76_Crisis_Suicide_Risk_and_Staying_Alive.md](./Session_76_Crisis_Suicide_Risk_and_Staying_Alive.md)
-- [Administrative_and_Checklist.md](./Administrative_and_Checklist.md)
-- [Protocols_and_Reporting.md](./Protocols_and_Reporting.md)
+---
+
+A specialized operational series and toolkit focusing on crisis management, suicide risk, and institutional facilitator standardization.
+
+### **Operational Addendum**
+- [**Session 76: Crisis, Suicide Risk, and Staying Alive**](./Session_76_Crisis_Suicide_Risk_and_Staying_Alive.md)
+- [Administrative and Checklist](./Administrative_and_Checklist.md)
+- [Protocols and Reporting](./Protocols_and_Reporting.md)
+
+### **Commercial & Facilitator Assets**
+- [**Master Glossary**](./Glossary.md) – Definitions of System Logic terminology.
+- [**Pricing and Tiers**](./Pricing_and_Tiers.md) – Institutional cohort pricing.
+- [**Certification Path**](./Certification_Path.md) – Facilitator prerequisites and levels.
+- [**IP and Usage Rights**](./IP_and_Usage_Rights.md) – Legal and proprietary information.
+
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

@@ -1,4 +1,8 @@
 # SESSION 42: TIME COLLAPSE
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part II: The Core Operational Journey (Season 2)
 
 ### **Session Overview**
@@ -90,4 +94,7 @@ Next session we look at The Permission Paradox — why the Architect can do anyt
 You’re free. Yellow or red anytime. See you next session — because now you know how the past hijacks the present… and you’re not going to want to miss how the machine stops you from helping yourself."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

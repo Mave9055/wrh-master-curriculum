@@ -1,4 +1,8 @@
 # SESSION 37: THE BODY KEEPS SCORE
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part II: The Core Operational Journey (Season 2)
 
 ### **Session Overview**
@@ -88,4 +92,7 @@ Next session we break down the difference between a real trigger and an activati
 You’re free. Yellow or red anytime. See you next session — because now you know the body is keeping score… and you’re not going to want to miss how we start rewriting the ledger."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

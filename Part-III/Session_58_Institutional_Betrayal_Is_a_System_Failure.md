@@ -1,4 +1,8 @@
 # SESSION 58: INSTITUTIONAL BETRAYAL IS A SYSTEM FAILURE
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part III: The Advanced Series (System Specialization)
 
 ### **Session Overview**
@@ -98,4 +102,7 @@ Next session we look at Session 59: **The Stigma Industrial Complex.** We look a
 You’re free. Yellow or red anytime. See you next session — because now you know why you don't trust… and you’re not going to want to miss the industrial complex."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

@@ -1,4 +1,8 @@
 # SESSION 46: THE CONSTRUCTED SELF
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part II: The Core Operational Journey (Season 2)
 
 ### **Session Overview**
@@ -92,4 +96,7 @@ Next session we begin Season 3 — “The Interrupt & Restore.” We’ve seen t
 You’re free. Yellow or red anytime. See you next session — because now you know who's behind the mask… and you’re not going to want to miss how we start bringing the driver back online."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

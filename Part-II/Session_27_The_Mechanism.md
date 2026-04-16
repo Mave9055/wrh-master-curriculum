@@ -1,4 +1,8 @@
 # SESSION 27: THE MECHANISM
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part II: The Core Operational Journey (Season 1)
 
 ### **Session Overview**
@@ -90,4 +94,7 @@ Tomorrow we open the next piece: how the wiring was installed in the very beginn
 You’re free to go. Yellow or red at any time — even after you leave the building. I’ll see you next session."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

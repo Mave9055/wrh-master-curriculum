@@ -1,5 +1,9 @@
 # SESSION 12: ADMINISTRATIVE AND CHECKLIST
 
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
+
 ### SECTION 1: ADMINISTRATIVE HEADER & RISK MANAGEMENT
 **VA Program Alignment:** Suicide Prevention (SP); Serious Mental Illness (SMI); Moral Injury Support; High-Risk Veteran Coordinator (HRVC) adjunct.
 **Evidence‑Based Mapping:** Interpersonal Theory of Suicide (IPTS – Joiner); Safety Planning Intervention (SPI – Stanley & Brown); VA/DoD CPG Version 3.0 (April 2024) – Sec 6.3, Sec 7.2; VHA Directive 1160.07; National Strategy for Preventing Veteran Suicide (2018–2028); Joint Commission NPSG 15.01.01.
@@ -36,3 +40,7 @@
 - [ ] Post‑session debrief time allocated (2 minutes per participant).
 - [ ] **Facilitator Agreement & Signature Page (see Section 17) signed and filed.**
 - [ ] **If group size ≤2: note as individual delivery; omit group reflection (Section 6). Continue all other sections.**
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

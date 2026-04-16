@@ -1,4 +1,8 @@
 # Part I: The System Logic Map (Sessions 1–26)
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 - [Session_01_Survival_Is_Wiring_Not_Weakness.md](./Session_01_Survival_Is_Wiring_Not_Weakness.md)
 - [Session_02_Trauma_Is_Inherited_Not_Just_Experienced.md](./Session_02_Trauma_Is_Inherited_Not_Just_Experienced.md)
 - [Session_03_A_Dangerous_Shelter_Is_Still_a_Shelter.md](./Session_03_A_Dangerous_Shelter_Is_Still_a_Shelter.md)
@@ -25,3 +29,7 @@
 - [Session_24_Co_Regulation_Is_the_Social_Nervous_System.md](./Session_24_Co_Regulation_Is_the_Social_Nervous_System.md)
 - [Session_25_Post_Traumatic_Growth_Is_System_Transformation.md](./Session_25_Post_Traumatic_Growth_Is_System_Transformation.md)
 - [Session_26_Identity_Is_the_New_Story_Protocol.md](./Session_26_Identity_Is_the_New_Story_Protocol.md)
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

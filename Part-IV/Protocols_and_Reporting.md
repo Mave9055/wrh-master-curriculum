@@ -1,5 +1,9 @@
 # SESSION 12: PROTOCOLS, LOGS, AND REPORTING
 
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
+
 ### SECTION 14: POST‑SESSION PARTICIPANT DEBRIEF (Individual, 2 minutes per person)
 *Conduct in order of seating. A second staff member (peer or clinician) must be present to supervise any participant with activation score ≥7 during their 10‑minute grounding period.*
 
@@ -247,4 +251,7 @@ Any **suicidal behavior** (attempt, preparatory act, interrupted attempt, aborte
 
 ---
 **END OF PROTOCOLS – VERSION 7.0**
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

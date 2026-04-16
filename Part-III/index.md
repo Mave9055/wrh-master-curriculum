@@ -1,4 +1,8 @@
 # Part III: Advanced System Specialization (Sessions 57–75)
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 - [Session_57_Executive_Dysfunction_Is_the_Regulation_Tax.md](./Session_57_Executive_Dysfunction_Is_the_Regulation_Tax.md)
 - [Session_58_Institutional_Betrayal_Is_a_System_Failure.md](./Session_58_Institutional_Betrayal_Is_a_System_Failure.md)
 - [Session_59_The_Stigma_Industrial_Complex.md](./Session_59_The_Stigma_Industrial_Complex.md)
@@ -18,3 +22,7 @@
 - [Session_73_The_Sovereignty_System_Failure.md](./Session_73_The_Sovereignty_System_Failure.md)
 - [Session_74_The_Resilience_System_Failure.md](./Session_74_The_Resilience_System_Failure.md)
 - [Session_75_The_Master_Manual_of_Self.md](./Session_75_The_Master_Manual_of_Self.md)
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

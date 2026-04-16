@@ -1,4 +1,8 @@
 # "What Really Happened" (WRH) 75-Session Master Curriculum
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## The Complete System Logic Translation & Regulation Training Package
 
 ---
@@ -81,3 +85,7 @@
 - **Three-Tier Structure:** Flexible options from Foundation (26 sessions) to the full Master (75 sessions) package.
 - Proprietary IP of **Capitol Contracts LLC**, framing recovery as a professional training and risk mitigation strategy.
 - **Key Insight:** We provide the technical manual for the most complex machine on earth—the human nervous system.
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

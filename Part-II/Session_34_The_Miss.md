@@ -1,4 +1,8 @@
 # SESSION 34: THE MISS
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part II: The Core Operational Journey (Season 1)
 
 ### **Session Overview**
@@ -86,4 +90,7 @@ Next session we watch the entire thing repeat. The full loop. High performance �
 You’re free. Yellow or red anytime. See you next session — because this is where we finally see the whole machine in motion… and you’re not going to want to miss how it all closes in on itself."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

@@ -1,4 +1,8 @@
 # SESSION 75: THE MASTER MANUAL OF SELF
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part III: The Advanced Series (System Specialization)
 
 ### **Session Overview**
@@ -100,4 +104,7 @@ We have completed the 75-session master curriculum. You have the map. You have t
 You’re free. Yellow or red anytime. Go build the life you were meant to live — because now you know who you are… and you’re the one who gets to write the ending."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

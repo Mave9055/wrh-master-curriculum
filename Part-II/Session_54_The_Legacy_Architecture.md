@@ -1,4 +1,8 @@
 # SESSION 54: THE LEGACY ARCHITECTURE
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part II: The Core Operational Journey (Season 3)
 
 ### **Session Overview**
@@ -90,4 +94,7 @@ Next session we look at Still Here — why your survival is the ultimate evidenc
 You’re free. Yellow or red anytime. See you next session — because now you know what you’re building for them… and you’re not going to want to miss the proof that you made it."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

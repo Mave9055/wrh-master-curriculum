@@ -1,4 +1,8 @@
 # SESSION 26: IDENTITY IS THE NEW STORY PROTOCOL
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 ## Part I: The 26 Laws of Survival (Season 5)
 
 ### **Session Overview**
@@ -99,4 +103,7 @@ The work continues. Next, we move into Part III: The Advanced Series — special
 You’re free. Yellow or red anytime. See you in the Advanced Series — because now you know who you are… and you’re not going to want to miss the specialization."
 
 ---
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

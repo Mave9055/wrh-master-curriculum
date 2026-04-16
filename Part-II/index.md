@@ -1,4 +1,8 @@
 # Part II: The Core Operational Journey (Sessions 27–56)
+
+[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+
+---
 - [Session_27_The_Mechanism.md](./Session_27_The_Mechanism.md)
 - [Session_28_The_Blueprint.md](./Session_28_The_Blueprint.md)
 - [Session_29_The_First_Pattern_Lock.md](./Session_29_The_First_Pattern_Lock.md)
@@ -29,3 +33,7 @@
 - [Session_54_The_Legacy_Architecture.md](./Session_54_The_Legacy_Architecture.md)
 - [Session_55_Still_Here.md](./Session_55_Still_Here.md)
 - [Session_56_The_Manifesto.md](./Session_56_The_Manifesto.md)
+---
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+*UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*
