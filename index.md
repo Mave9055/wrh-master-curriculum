@@ -15,8 +15,8 @@ The original *30-Session Pilot Program*. These sessions guide participants throu
 ### [Part III: Advanced System Specialization (Sessions 57–75)](./Part-III/)
 The *19-Session Advanced Series*. These sessions focus on advanced system specialization and institutional failure analysis.
 
-### [Part IV: The Operational Package](./Part-IV/)
-A specialized operational series focusing on crisis management, suicide risk, and staying alive.
+### [Part IV: Facilitator Standardization Toolkit](./Part-IV/)
+The *Special Operational Addendum* (Session 76). This toolkit focuses on crisis management, suicide risk, and facilitator standardization protocols.
 
 ---
 

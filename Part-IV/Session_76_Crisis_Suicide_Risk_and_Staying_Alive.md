@@ -1,5 +1,5 @@
-# SESSION 12: CRISIS, SUICIDE RISK, AND STAYING ALIVE
-## COMPLETE OPERATIONAL PACKAGE – VERSION 7.0 (FINAL – FEDERALLY COMPLIANT)
+# SESSION 76: CRISIS, SUICIDE RISK, AND STAYING ALIVE
+## Part IV: Special Operational Addendum – VERSION 7.0
 
 **Course:** What Really Happened: A Trauma Education Series
 **Module:** Part IV – Operational Regulation
@@ -17,7 +17,7 @@
 
 ### SECTION 3: OPENING GROUNDING & RGP (10 minutes)
 **Facilitator speaks:**
-“Welcome to Session 12. This session is called *Crisis, Suicide Risk, and Staying Alive*. Before we go anywhere, I want to name something directly: **This session is not about making you promise to stay alive.** It’s not about guilt, or shame, or ‘reasons to live.’ It’s about understanding *why* your nervous system might produce the thought of disappearing – and what that thought actually is.
+“Welcome to Session 76. This session is called *Crisis, Suicide Risk, and Staying Alive*. Before we go anywhere, I want to name something directly: **This session is not about making you promise to stay alive.** It’s not about guilt, or shame, or ‘reasons to live.’ It’s about understanding *why* your nervous system might produce the thought of disappearing – and what that thought actually is.
 
 A thought is not a plan. A thought is not a moral failure. A thought is data.
 
@@ -49,9 +49,11 @@ Okay. Open your eyes when you’re ready.”
 ### SECTION 4: LECTURE 1 – NERVOUS SYSTEM IN CRISIS (12 minutes)
 
 **ADMINISTRATIVE & PROTOCOL LINKS:**
+- [SECTION 1: ADMINISTRATIVE HEADER](./Administrative_and_Checklist.md#section-1-administrative-header--risk-management)
+- [SECTION 2: PRE-SESSION CHECKLIST](./Administrative_and_Checklist.md#section-2-pre-session-facilitator-checklist-do-not-proceed-unless-all-boxes-checked)
 - [SECTION 14: POST‑SESSION PARTICIPANT DEBRIEF](./Protocols_and_Reporting.md#section-14-post-session-participant-debrief-individual-2-minutes-per-person)
 - [SECTION 15: SPI HANDOFF PROTOCOL](./Protocols_and_Reporting.md#section-15-spi-handoff-protocol--full-scripts-for-all-scenarios)
-- [SECTION 16: S‑12‑SAF FACILITATOR INCIDENT & SAFETY LOG](./Protocols_and_Reporting.md#section-16-s-12-saf-facilitator-incident--safety-log-fillable)
+- [SECTION 16: S‑76‑SAF FACILITATOR INCIDENT & SAFETY LOG](./Protocols_and_Reporting.md#section-16-s-12-saf-facilitator-incident--safety-log-fillable)
 - [SECTION 17: FACILITATOR POST‑SESSION SUPERVISION CHECK](./Protocols_and_Reporting.md#section-17-facilitator-post-session-supervision-check)
 - [SECTION 18: FACILITATOR AGREEMENT & SIGNATURE PAGE](./Protocols_and_Reporting.md#section-18-facilitator-agreement--signature-page)
 - [SECTION 19: DISRUPTIVE BEHAVIOR / ELOPEMENT PROTOCOL](./Protocols_and_Reporting.md#section-19-disruptive-behavior--elopement-protocol)
@@ -266,5 +268,5 @@ Thank you.
 **Do not dismiss yet.** I am going to speak with each of you individually for two minutes before you leave. Please stay seated. While you wait, look at your Safety Reference Card one more time. Put it in your wallet or your phone case. Take it with you.”
 
 ---
-**END OF SESSION 12 – VERSION 7.0**
+**END OF SESSION 76 – VERSION 7.0**
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
