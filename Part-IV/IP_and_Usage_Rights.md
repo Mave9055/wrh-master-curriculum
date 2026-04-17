@@ -1,6 +1,6 @@
 # **WRH Master Curriculum: Intellectual Property (IP) and Usage Rights**
 
-[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+[**HOME**](../index.md) | [**PART I**](../Part-I/index.md) | [**PART II**](../Part-II/index.md) | [**PART III**](../Part-III/index.md) | [**PART IV**](../Part-IV/index.md)
 
 ---
 
@@ -38,7 +38,7 @@ The WRH Master Curriculum is meticulously designed to align with and support **D
 
 ## **6.0 About Capitol Contracts LLC**
 
-Capitol Contracts LLC is a distinguished **Service-Disabled Veteran-Owned Small Business (SDVOSB)**, committed to providing high-quality professional training and psychoeducational support services. Our expertise and operational structure are aligned with federal contracting requirements, ensuring seamless engagement with government agencies. Our federal contracting identifiers are:
+Capitol Contracts LLC is committed to providing high-quality professional training and psychoeducational support services. Our expertise and operational structure are aligned with federal contracting requirements, ensuring seamless engagement with government agencies. Our federal contracting identifiers are:
 
 *   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
 *   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
@@ -47,6 +47,6 @@ For legal inquiries, formal licensing permissions, or detailed discussions regar
 
 ---
 ---
-[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](../index.md)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
 *UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*
