@@ -8,6 +8,8 @@ A specialized operational series and toolkit focusing on crisis management, suic
 ### **Operational Addendum**
 - [**Session 76: Behavioral Health Crisis Response, Safety Protocols, and Escalation Management Framework
 - [**Universal Crisis Package**](./Crisis_Package.md)
+- [**Delivery Tier Implementation**](./Delivery_Tier_Implementation.md)
+- [**Adverse Event Reporting & Data Export**](./Adverse_Event_Reporting.md)
 - [Administrative and Checklist](./Administrative_and_Checklist.md)
 - [Protocols and Reporting](./Protocols_and_Reporting.md)
 

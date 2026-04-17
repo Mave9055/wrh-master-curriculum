@@ -24,6 +24,12 @@ This **Master Glossary** provides comprehensive definitions for the proprietary 
 | **Somatic Redline** | The physiological threshold beyond which a participant's nervous system is too activated to process information safely. | Monitored via the Somatic Redline Protocol (HO-12.1). |
 | **System Logic Map** | The visual and conceptual framework used to track the progression of survival adaptations across the 75 sessions. | The "GPS" for the WRH curriculum. |
 | **Warm Handoff** | The standardized transition of a participant from the non-clinical WRH environment to a clinical safety professional. | A core component of the Crisis Escalation Protocol. |
+| **Delivery Tier** | One of three acuity-based models (Tier 1: Community, Tier 2: Structured, Tier 3: Clinical) for delivering the WRH curriculum. | Determines facilitator certification, clinical support, and safety infrastructure. |
+| **S-ACT (Activation Level)** | A 1-5 scale quantifying participant nervous system activation during a session. | Used in S-Prefix Metric Framework for adverse event reporting. |
+| **S-REG (RGP Effectiveness)** | A categorical measure (Success/Partial/Fail) of RGP effectiveness in de-escalating participant activation. | Used in S-Prefix Metric Framework for adverse event reporting. |
+| **S-INT (Intervention Type)** | A categorical measure (Verbal/RGP/SPI) of the type of intervention deployed during an adverse event. | Used in S-Prefix Metric Framework for adverse event reporting. |
+| **S-OUT (Outcome)** | A categorical measure (Stabilized/Handoff/Exit) of the outcome of an intervention. | Used in S-Prefix Metric Framework for adverse event reporting. |
+| **Adverse Event** | Any occurrence during or immediately following a WRH session that results in participant distress or requires intervention beyond standard protocol. | Classified into four levels (1-4) based on severity. |
 
 ---
 ---

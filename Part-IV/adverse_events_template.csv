@@ -1,0 +1,6 @@
+Incident_ID,Date,Time,Session_Number,Delivery_Tier,S_ACT,S_REG,S_INT,S_OUT,Event_Level,Triggering_Factor_Category,Emergency_Services_Contacted,Follow_Up_Completed,Follow_Up_Status,Facilitator_Tier,Location_Code
+AER-2026-001,2026-04-17,14:30,12,Tier2,4,Success,RGP,Stabilized,Level2,Session_Content,No,Yes,Participant_Stable,Tier2,LOC-VA-001
+AER-2026-002,2026-04-18,10:15,08,Tier3,5,Partial,SPI,Handoff,Level3,Participant_State,Yes,Yes,Clinical_Support_Engaged,Tier3,LOC-PRRC-001
+AER-2026-003,2026-04-19,15:45,15,Tier1,2,Success,Verbal,Stabilized,Level1,Environmental,No,Yes,Participant_Stable,Tier1,LOC-VetCenter-001
+AER-2026-004,2026-04-20,09:00,12,Tier2,3,Success,RGP,Stabilized,Level2,Facilitator_Technique,No,Yes,Participant_Stable,Tier2,LOC-IOP-001
+AER-2026-005,2026-04-21,16:20,20,Tier3,5,Fail,SPI,Handoff,Level4,Suicidal_Ideation,Yes,Pending,Emergency_Response,Tier3,LOC-Inpatient-001
