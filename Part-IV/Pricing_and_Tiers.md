@@ -1,6 +1,6 @@
 # **WRH Master Curriculum: Tiered Service Offerings and Pricing Structure**
 
-[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+[**HOME**](../index.md) | [**PART I**](../Part-I/index.md) | [**PART II**](../Part-II/index.md) | [**PART III**](../Part-III/index.md) | [**PART IV**](../Part-IV/index.md)
 
 ---
 
@@ -52,7 +52,7 @@ The **"What Really Happened" (WRH) Master Curriculum** is a comprehensive, profe
 
 ## **4.0 Procurement Information**
 
-Capitol Contracts LLC is a **Service-Disabled Veteran-Owned Small Business (SDVOSB)**, registered in the System for Award Management (SAM) and compliant with all federal contracting regulations. Our commitment to supporting federal agencies is underscored by our specialized expertise and robust infrastructure for delivering high-quality psychoeducational services.
+Capitol Contracts LLC is registered in the System for Award Management (SAM) and compliant with all federal contracting regulations. Our commitment to supporting federal agencies is underscored by our specialized expertise and robust infrastructure for delivering high-quality psychoeducational services.
 
 *   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
 *   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
@@ -61,6 +61,6 @@ For formal institutional quotes, federal contract vehicle inquiries (e.g., GSA S
 
 ---
 ---
-[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](../index.md)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
 *UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*

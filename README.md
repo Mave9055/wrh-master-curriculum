@@ -7,7 +7,7 @@
 
 ### **1.0 Introduction and Background**
 
-This document outlines the Performance Work Statement (PWS) for the "What Really Happened" (WRH) Master Curriculum, a comprehensive psychoeducational intervention designed to enhance behavioral health, recovery, and risk mitigation, with a specialized focus on the veteran population. Developed by Capitol Contracts LLC, a Service-Disabled Veteran-Owned Small Business (SDVOSB), this curriculum addresses critical needs within federal agencies, including the Department of Veterans Affairs (VA), Department of Defense (DoD), Department of Labor (DOL), and the Substance Abuse and Mental Health Services Administration (SAMHSA), by providing a structured, replicable, and evidence-informed program.
+This document outlines the Performance Work Statement (PWS) for the "What Really Happened" (WRH) Master Curriculum, a comprehensive psychoeducational intervention designed to enhance behavioral health, recovery, and risk mitigation, with a specialized focus on the veteran population. Developed by Capitol Contracts LLC, this curriculum addresses critical needs within federal agencies, including the Department of Veterans Affairs (VA), Department of Defense (DoD), Department of Labor (DOL), and the Substance Abuse and Mental Health Services Administration (SAMHSA), by providing a structured, replicable, and evidence-informed program.
 
 ### **2.0 Scope of Work**
 
@@ -74,7 +74,7 @@ The curriculum is organized into parts, with each session as a distinct markdown
 
 ### **7.0 About Capitol Contracts LLC**
 
-Capitol Contracts LLC is a distinguished Service-Disabled Veteran-Owned Small Business (SDVOSB) dedicated to providing high-quality professional training and psychoeducational support services. Our commitment to excellence and our specialized focus on veteran populations align with federal initiatives to support veteran-owned businesses and enhance the well-being of service members and their families. Our federal contracting identifiers are as follows:
+Capitol Contracts LLC is dedicated to providing high-quality professional training and psychoeducational support services. Our commitment to excellence and our specialized focus on veteran populations align with federal initiatives to enhance the well-being of service members and their families. Our federal contracting identifiers are as follows:
 
 *   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
 *   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
