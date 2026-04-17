@@ -6,7 +6,7 @@
 A specialized operational series and toolkit focusing on crisis management, suicide risk, and institutional facilitator standardization.
 
 ### **Operational Addendum**
-- [**Session 76: Crisis, Suicide Risk, and Staying Alive**](./Session_76_Crisis_Suicide_Risk_and_Staying_Alive.md)
+- [**Session 76: Behavioral Health Crisis Response, Safety Protocols, and Escalation Management Framework
 - [Administrative and Checklist](./Administrative_and_Checklist.md)
 - [Protocols and Reporting](./Protocols_and_Reporting.md)
 
