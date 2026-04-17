@@ -1,55 +1,45 @@
-<p align="center">
-  <img src="assets/capitol_contracts_logo.png" alt="Capitol Contracts Logo" width="400">
-</p>
+# WRH Master Curriculum: Clinical Safety & Procurement Portal
 
-# "What Really Happened" (WRH) Master Curriculum
-[**HOME**](./index.md) | [**PART I**](./Part-I/index.md) | [**PART II**](./Part-II/index.md) | [**PART III**](./Part-III/index.md) | [**PART IV**](./Part-IV/index.md)
+This portal provides the standardized documentation, safety protocols, and metric tracking required for federal procurement and clinical oversight of the **"What Really Happened" (WRH) Master Curriculum**.
 
 ---
 
-### **Introduction to the "What Really Happened" (WRH) Master Curriculum**
+## 📋 Procurement & Safety Documentation
+*Click the links below to download the formal documentation required for agency approval.*
 
-This document serves as an introduction to the "What Really Happened" (WRH) Master Curriculum, a comprehensive, proprietary, and non-clinical psychoeducational intervention developed by **Capitol Contracts LLC**. Designed with a structured and replicable framework, this 75-session program is specifically tailored for behavioral health, recovery, and risk mitigation, with a critical emphasis on supporting the veteran population. Capitol Contracts LLC is committed to delivering high-impact solutions for federal agencies, including the Department of Veterans Affairs (VA), Department of Defense (DoD), Department of Labor (DOL), and the Substance Abuse and Mental Health Services Administration (SAMHSA).
-
----
-
-### [**Part I: The System Logic Map (Sessions 1–26)**](./Part-I/index.md)
-The *26 Laws of Survival*. These sessions reveal the foundational physiological adaptations of the nervous system.
-
-### [**Part II: The Core Operational Journey (Sessions 27–56)**](./Part-II/index.md)
-The *30-Session Pilot Program*. A sequential flow focused on mechanical loops, wiring patterns, and biological programs.
-
-### [**Part III: Advanced System Specialization (Sessions 57–75)**](./Part-III/index.md)
-The *19-Session Advanced Series*. These sessions focus on advanced system specialization and institutional failure analysis.
-
-### [**Part IV: Facilitator Standardization Toolkit (Session 76)**](./Part-IV/index.md)
-The *Special Operational Addendum* and professional toolkit. Includes the **Crisis Package**, **Master Glossary**, **Pricing**, and **Certification Path**.
-
----
-### **Institutional and Contracting Information**
-
-Capitol Contracts LLC specializes in professional training and educational support services. Our federal contracting identifiers are:
-
-*   **Unique Entity Identifier (UEI)**: HH77KN5AV5X7
-*   **Commercial and Government Entity (CAGE) Code**: 9ZFJ6
-
-For detailed information regarding program components, pricing, certification, and intellectual property, please refer to the following:
-
-*   [**Universal Crisis Package**](./Part-IV/Crisis_Package.md)
-*   [**Delivery Tier Implementation**](./Part-IV/Delivery_Tier_Implementation.md)
-*   [**Adverse Event Reporting & Data Export**](./Part-IV/Adverse_Event_Reporting.md)
-*   [**Federal & VA Compliance / RMF**](./Part-IV/Compliance_and_Risk_Management.md)
-*   [**Session 12 Pilot Portal**](./Part-I/Session_12_Pilot_Portal.md)
-*   [**Master Glossary**](./Part-IV/Glossary.md)
-*   [**Standardized Safety Language**](./Part-IV/Safety_Language_Template.md)
-*   [**Facilitator Prerequisites**](./Part-IV/Facilitator_Prerequisites.md)
-*   [**Pricing and Tiers**](./Part-IV/Pricing_and_Tiers.md)
-*   [**Certification Path**](./Part-IV/Certification_Path.md)
-*   [**IP and Usage Rights**](./Part-IV/IP_and_Usage_Rights.md)
-*   [**Capability Statement**](./Capability_Statement.md)
-*   [**Privacy Policy**](./Privacy_Policy.md)
-*   [**Terms of Use**](./Terms_of_Use.md)
+* **[Executive Summary: Session 12 Clinical Safety](./S12_Clinical_Safety_Executive_Summary.docx)**
+    * **Target:** VISN Suicide Prevention Coordinators / Contracting Officers.
+    * **Content:** Hardened safety overlays (HO-12.1-3), SPI warm handoff protocols, and liability boundaries.
+* **[Program-Level Clinical Safety Summary](./WRH_Program_Level_Clinical_Safety_Summary.docx)**
+    * **Target:** Agency Leadership / Clinical Directors.
+    * **Content:** 75-session architecture, VHA 1030 compliance mapping, and facilitator tier matrix.
+* **[S12 & Pilot Metric Tracker (Excel)](./WRH_S12_Metric_Tracker.xlsx)**
+    * **Target:** Program Managers / Facilitators.
+    * **Content:** Live dashboard with auto-calculating S-ACT risk bands and de-identified CSV export tools.
 
 ---
 
-*Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
+## 🛠 Curriculum Architecture
+The WRH Curriculum is a non-clinical psychoeducational intervention structured into four distinct parts:
+
+1.  **[Part I: The System Logic Map](./Part-I/)** (Sessions 1–26)
+2.  **[Part II: The Core Operational Journey](./Part-II/)** (Sessions 27–56)
+3.  **[Part III: Advanced System Specialization](./Part-III/)** (Sessions 57–75)
+4.  **[Part IV: Facilitator Standardization Toolkit](./Part-IV/)**
+
+---
+
+## 📑 Federal Business Identifiers
+* **Company:** Capitol Contracts LLC
+* **UEI:** HH77KN5AV5X7
+* **CAGE Code:** 9ZFJ6
+* **Primary NAICS:** 611430, 611710, 541611, 624190
+
+---
+
+## 🔗 Internal Resources
+* **[Capability Statement](./Capability_Statement.md)**
+* **[Privacy Policy](./Privacy_Policy.md)**
+* **[Terms of Use](./Terms_of_Use.md)**
+
+[Return to GitHub Repository](https://github.com/Mave9055/wrh-master-curriculum)
