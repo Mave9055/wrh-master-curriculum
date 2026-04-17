@@ -35,6 +35,7 @@ Capitol Contracts LLC specializes in professional training and educational suppo
 
 For detailed information regarding program components, pricing, certification, and intellectual property, please refer to the following:
 
+*   [**Universal Crisis Package**](./Part-IV/Crisis_Package.md)
 *   [**Federal & VA Compliance / RMF**](./Part-IV/Compliance_and_Risk_Management.md)
 *   [**Session 12 Pilot Portal**](./Part-I/Session_12_Pilot_Portal.md)
 *   [**Master Glossary**](./Part-IV/Glossary.md)
