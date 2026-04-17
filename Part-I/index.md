@@ -14,7 +14,7 @@
 - [Session_09_Functional_Inhibition_Response_Mechanism_Freeze_Response.md](./Session_09_Functional_Inhibition_Response_Mechanism_Freeze_Response.md)
 - [Session_10_Dissociative_Protective_Disengagement_States.md](./Session_10_Dissociative_Protective_Disengagement_States.md)
 - [Session_11_Institutional_Interaction_and_Retraumatization_Risk.md](./Session_11_Institutional_Interaction_and_Retraumatization_Risk.md)
-- [Session_12_Internal_Behavioral_Conflict_Systems.md](./Session_12_Internal_Behavioral_Conflict_Systems.md)
+- [Session_12_Internal_Behavioral_Conflict_Systems.md](./Session_12_Internal_Behavioral_Conflict_Systems.md) ([**Pilot Portal V5.0**](./Session_12_Pilot_Portal.md))
 - [Session_13_Misclassification_of_Functional_Inhibition_as_Noncompliance.md](./Session_13_Misclassification_of_Functional_Inhibition_as_Noncompliance.md)
 - [Session_14_Dissociation_as_Adaptive_Protective_Function.md](./Session_14_Dissociation_as_Adaptive_Protective_Function.md)
 - [Session_15_Autonomic_Nervous_System_Dysregulation_Patterns.md](./Session_15_Autonomic_Nervous_System_Dysregulation_Patterns.md)

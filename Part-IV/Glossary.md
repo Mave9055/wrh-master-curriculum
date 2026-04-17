@@ -20,6 +20,10 @@ This **Master Glossary** provides comprehensive definitions for the proprietary 
 | **System Logic Translation** | The framework of treating trauma responses as predictable engineering problems rather than character flaws. | The core methodology of the entire 76-session curriculum. |
 | **Thwarted Belongingness** | The feeling of being alienated or not belonging to any meaningful social group. | Common after military service; a risk factor for suicide. |
 | **Time and Distance** | The "physics-based" strategy of adding barriers between a suicidal impulse and the means to act. | The most powerful tool for crisis mitigation. |
+| **Hardened Overlay** | Specialized administrative and safety protocols layered onto the core curriculum to mitigate risk in high-activation environments. | Essential for Federal & VA Compliance. |
+| **Somatic Redline** | The physiological threshold beyond which a participant's nervous system is too activated to process information safely. | Monitored via the Somatic Redline Protocol (HO-12.1). |
+| **System Logic Map** | The visual and conceptual framework used to track the progression of survival adaptations across the 75 sessions. | The "GPS" for the WRH curriculum. |
+| **Warm Handoff** | The standardized transition of a participant from the non-clinical WRH environment to a clinical safety professional. | A core component of the Crisis Escalation Protocol. |
 
 ---
 ---

@@ -35,7 +35,11 @@ Capitol Contracts LLC specializes in professional training and educational suppo
 
 For detailed information regarding program components, pricing, certification, and intellectual property, please refer to the following:
 
+*   [**Federal & VA Compliance / RMF**](./Part-IV/Compliance_and_Risk_Management.md)
+*   [**Session 12 Pilot Portal**](./Part-I/Session_12_Pilot_Portal.md)
 *   [**Master Glossary**](./Part-IV/Glossary.md)
+*   [**Standardized Safety Language**](./Part-IV/Safety_Language_Template.md)
+*   [**Facilitator Prerequisites**](./Part-IV/Facilitator_Prerequisites.md)
 *   [**Pricing and Tiers**](./Part-IV/Pricing_and_Tiers.md)
 *   [**Certification Path**](./Part-IV/Certification_Path.md)
 *   [**IP and Usage Rights**](./Part-IV/IP_and_Usage_Rights.md)
