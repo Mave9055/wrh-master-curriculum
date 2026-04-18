@@ -57,7 +57,7 @@ Okay. Open your eyes when you’re ready.”
 - [SECTION 2: PRE-SESSION CHECKLIST](./Administrative_and_Checklist.md#section-2-pre-session-facilitator-checklist-do-not-proceed-unless-all-boxes-checked)
 - [SECTION 14: POST‑SESSION PARTICIPANT DEBRIEF](./Protocols_and_Reporting.md#section-14-post-session-participant-debrief-individual-2-minutes-per-person)
 - [SECTION 15: SPI HANDOFF PROTOCOL](./Protocols_and_Reporting.md#section-15-spi-handoff-protocol--full-scripts-for-all-scenarios)
-- [SECTION 16: S‑76‑SAF FACILITATOR INCIDENT & SAFETY LOG](./Protocols_and_Reporting.md#section-16-s-12-saf-facilitator-incident--safety-log-fillable)
+- [SECTION 16: S‑12‑SAF FACILITATOR INCIDENT & SAFETY LOG](./Protocols_and_Reporting.md#section-16-s-12-saf-facilitator-incident--safety-log-fillable)
 - [SECTION 17: FACILITATOR POST‑SESSION SUPERVISION CHECK](./Protocols_and_Reporting.md#section-17-facilitator-post-session-supervision-check)
 - [SECTION 18: FACILITATOR AGREEMENT & SIGNATURE PAGE](./Protocols_and_Reporting.md#section-18-facilitator-agreement--signature-page)
 - [SECTION 19: DISRUPTIVE BEHAVIOR / ELOPEMENT PROTOCOL](./Protocols_and_Reporting.md#section-19-disruptive-behavior--elopement-protocol)
@@ -159,12 +159,7 @@ Let me break that down.
 
 But here’s the critical piece. Many people feel burdensome and alone. Most of them do not attempt suicide. What separates those who attempt from those who don’t is **acquired capability** – the ability to overcome the innate fear of death.
 
-Acquired capability comes from repeated exposure to pain, injury, or violence. Military service, trauma, NSSI, multiple surgeries – these experiences teach the nervous system that pain is survivable. And that’s adaptive in combat. But it also lowers the fear barrier to suicide.
-
-**Facilitator note (C‑SSRS reference):**
-‘Reference to ‘C‑SSRS positive’ refers to the VA’s required screening tool. This section demonstrates positive findings for Ideation (Severity), Intensity of Ideation, and Suicidal Behavior within the critical ‘Recent’ (past 3 months) window.’
-
-**So here’s the takeaway:** If you have had suicidal thoughts, it is not because you are weak. It is because your nervous system has learned – through real, valid experiences – that pain is tolerable, and that your absence might relieve others. That is a logical conclusion from bad data.
+Acquired capability comes from repeated exposure to pain, injury, or violence. Military service, trauma, NSSI, multiple surgeries – these experiences teach the nervous system that pain is tolerable, and that your absence might relieve others. That is a logical conclusion from bad data.
 
 The goal of staying alive is not to argue with that conclusion. It is to add new data. And that’s what the Safety Reference Card is for.”
 

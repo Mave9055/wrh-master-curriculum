@@ -41,6 +41,7 @@ To facilitate this Version 5.0 Pilot session, the following prerequisites must b
 *   **Compliance:** Active understanding of [VHA Directive 1030](../Part-IV/Compliance_and_Risk_Management.md#21-vha-directive-1030-compliance).
 
 ---
+
 ---
 [**BACK TO TOP**](#) | [**CURRICULUM INDEX**](../index.md)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
