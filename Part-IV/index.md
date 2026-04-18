@@ -6,7 +6,7 @@
 A specialized operational series and toolkit focusing on crisis management, suicide risk, and institutional facilitator standardization.
 
 ### **Operational Addendum**
-- [**Session 76: Behavioral Health Crisis Response, Safety Protocols, and Escalation Management Framework
+- [**Session 76: Behavioral Health Crisis Response, Safety Protocols, and Escalation Management Framework**](./Session_76_Behavioral_Health_Crisis_Response_Safety_Protocols_and_Escalation_Management_Framework.md)
 - [**Universal Crisis Package**](./Crisis_Package.md)
 - [**Delivery Tier Implementation**](./Delivery_Tier_Implementation.md)
 - [**Adverse Event Reporting & Data Export**](./Adverse_Event_Reporting.md)

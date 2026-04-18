@@ -20,7 +20,7 @@ This portal contains the complete, integrated package for Session 12.
 *   [**Core Facilitator Script (Hardened)**](./Session_12_Internal_Behavioral_Conflict_Systems.md)
 *   [**Version 5.0 Presentation Deck**](../presentation/engineering_problem.html) (Optimized for Session 12)
 *   [**Hardened Overlay HO-12.1 (Somatic Redline)**](../Part-IV/Compliance_and_Risk_Management.md#10-hardened-overlays-session-12-integration)
-*   [**Participant Parts Audit Worksheet (V5.0)**](../assets/parts_audit_v5.pdf) *(Placeholder)*
+*   **Participant Parts Audit Worksheet (V5.0)** *(Placeholder - Coming Soon)*
 
 ---
 
