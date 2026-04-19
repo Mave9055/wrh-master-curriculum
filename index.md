@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="./assets/images/capitol-contracts-logo.png" alt="Capitol Contracts LLC Logo" width="300">
+</p>
+
 # WRH Master Curriculum Portal
+*An Official Curriculum of Capitol Contracts LLC*
 
 > [!IMPORTANT]
 > **NOT THERAPY. NO DISCLOSURE.**
@@ -33,11 +38,13 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 
 ---
 
-## 📑 Federal Business Identifiers
-* **Company:** Capitol Contracts LLC
-* **UEI:** HH77KN5AV5X7
-* **CAGE Code:** 9ZFJ6
-* **Primary NAICS:** 611430, 611710, 541611, 624190
+## 🏢 Prime Contractor: Capitol Contracts LLC
+*Certified Service-Disabled Veteran-Owned Small Business (SDVOSB)*
+
+*   **UEI:** HH77KN5AV5X7
+*   **CAGE Code:** 9ZFJ6
+*   **Primary NAICS:** 611430, 611710, 541611, 624190
+*   **Contact:** [capitolcontractsllc.com](https://capitolcontractsllc.com)
 
 ---
 
@@ -50,4 +57,10 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 * **[Terms of Use](./Terms_of_Use.md)**
 * **[Accessibility Statement (Section 508)](./accessibility.html)**
 
-[Return to GitHub Repository](https://github.com/Mave9055/wrh-master-curriculum)
+---
+
+<p align="center">
+  <b>© 2026 Capitol Contracts LLC</b><br>
+  <i>Standardizing Trauma Education for Federal Procurement</i><br>
+  <a href="https://github.com/Mave9055/wrh-master-curriculum">Return to GitHub Repository</a>
+</p>
