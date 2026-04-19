@@ -1,6 +1,6 @@
 # SESSION 12: PROTOCOLS, LOGS, AND REPORTING
 
-[**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
+[**HOME**](../../index.md) | [**PART I**](../../Part-I/index.md) | [**PART II**](../../Part-II/index.md) | [**PART III**](../../Part-III/index.md) | [**PART IV**](../../Part-IV/index.md)
 
 ---
 
@@ -252,6 +252,6 @@ Any **suicidal behavior** (attempt, preparatory act, interrupted attempt, aborte
 ---
 **END OF PROTOCOLS – VERSION 7.0**
 ---
-[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](https://mave9055.github.io/wrh-master-curriculum/)
+[**BACK TO TOP**](#) | [**CURRICULUM INDEX**](../../index.md)
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*
 *UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6*
