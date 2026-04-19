@@ -3,6 +3,11 @@
 </p>
 
 # "What Really Happened" (WRH) 75-Session Master Curriculum
+
+> [!IMPORTANT]
+> **NOT THERAPY. NO DISCLOSURE.**
+> This curriculum is a non-clinical psychoeducational intervention focused on system logic and physiological adaptation. It does not require, nor encourage, the disclosure of personal trauma history.
+
 ## **Performance Work Statement (PWS) for the "What Really Happened" (WRH) Master Curriculum**
 
 ### **1.0 Introduction and Background**

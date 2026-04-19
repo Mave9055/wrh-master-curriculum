@@ -1,4 +1,9 @@
 # Part IV: Facilitator Standardization Toolkit
+
+> [!IMPORTANT]
+> **NOT THERAPY. NO DISCLOSURE.**
+> This curriculum is a non-clinical psychoeducational intervention focused on system logic and physiological adaptation.
+
 [**HOME**](../index.md) | [**PART I**](../Part-I/index.md) | [**PART II**](../Part-II/index.md) | [**PART III**](../Part-III/index.md) | [**PART IV**](../Part-IV/index.md)
 
 ---
@@ -6,7 +11,7 @@
 A specialized operational series and toolkit focusing on crisis management, suicide risk, and institutional facilitator standardization.
 
 ### **Operational Addendum**
-- [**Session 76: Behavioral Health Crisis Response, Safety Protocols, and Escalation Management Framework**](./Session_76_Behavioral_Health_Crisis_Response_Safety_Protocols_and_Escalation_Management_Framework.md)
+- [Session 76 Behavioral Health Crisis Response Safety Protocols and Escalation Management Framework](./Session_76_Behavioral_Health_Crisis_Response_Safety_Protocols_and_Escalation_Management_Framework.md)
 - [**Universal Crisis Package**](./Crisis_Package.md)
 - [**Delivery Tier Implementation**](./Delivery_Tier_Implementation.md)
 - [**Adverse Event Reporting & Data Export**](./Adverse_Event_Reporting.md)

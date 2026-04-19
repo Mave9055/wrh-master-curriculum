@@ -1,19 +1,23 @@
-# WRH Master Curriculum: Clinical Safety & Procurement Portal
+# WRH Master Curriculum Portal
+
+> [!IMPORTANT]
+> **NOT THERAPY. NO DISCLOSURE.**
+> This curriculum is a non-clinical psychoeducational intervention focused on system logic and physiological adaptation. It does not require, nor encourage, the disclosure of personal trauma history.
 
 This portal provides the standardized documentation, safety protocols, and metric tracking required for federal procurement and clinical oversight of the **"What Really Happened" (WRH) Master Curriculum**.
 
 ---
 
 ## 📋 Procurement & Safety Documentation
-*Click the links below to download the formal documentation required for agency approval.*
+*Formal documentation required for agency approval. Available upon request.*
 
-* **[Executive Summary: Session 12 Clinical Safety](./S12_Clinical_Safety_Executive_Summary.docx)**
+* **Executive Summary: Session 12 Clinical Safety** (Available upon request)
     * **Target:** VISN Suicide Prevention Coordinators / Contracting Officers.
     * **Content:** Hardened safety overlays (HO-12.1-3), SPI warm handoff protocols, and liability boundaries.
-* **[Program-Level Clinical Safety Summary](./WRH_Program_Level_Clinical_Safety_Summary.docx)**
+* **Program-Level Clinical Safety Summary** (Available upon request)
     * **Target:** Agency Leadership / Clinical Directors.
     * **Content:** 75-session architecture, VHA 1030 compliance mapping, and facilitator tier matrix.
-* **[S12 & Pilot Metric Tracker (Excel)](./WRH_S12_Metric_Tracker.xlsx)**
+* **S12 & Pilot Metric Tracker (Excel)** (Available upon request)
     * **Target:** Program Managers / Facilitators.
     * **Content:** Live dashboard with auto-calculating S-ACT risk bands and de-identified CSV export tools.
 
@@ -42,5 +46,6 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 * **[Capability Statement](./Capability_Statement.md)**
 * **[Privacy Policy](./Privacy_Policy.md)**
 * **[Terms of Use](./Terms_of_Use.md)**
+* **[Accessibility Statement (Section 508)](./accessibility.html)**
 
 [Return to GitHub Repository](https://github.com/Mave9055/wrh-master-curriculum)

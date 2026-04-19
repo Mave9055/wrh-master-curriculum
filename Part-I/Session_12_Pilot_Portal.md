@@ -1,5 +1,8 @@
 # Session 12: Protected Pilot Portal (Version 5.0)
 
+![Version](https://img.shields.io/badge/System_Logic-v5.0--Stabilized-blue)
+
+
 [**HOME**](../index.md) | [**PART I**](./index.md) | [**PART II**](../Part-II/index.md) | [**PART III**](../Part-III/index.md) | [**PART IV**](../Part-IV/index.md)
 
 ---

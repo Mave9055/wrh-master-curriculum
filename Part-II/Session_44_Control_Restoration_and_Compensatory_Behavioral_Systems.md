@@ -1,5 +1,8 @@
 # Session 44: Control Restoration and Compensatory Behavioral Systems
 
+![Version](https://img.shields.io/badge/System_Logic-v5.0--Stabilized-blue)
+
+
 [**HOME**](https://mave9055.github.io/wrh-master-curriculum/) | [**PART I**](https://mave9055.github.io/wrh-master-curriculum/Part-I/) | [**PART II**](https://mave9055.github.io/wrh-master-curriculum/Part-II/) | [**PART III**](https://mave9055.github.io/wrh-master-curriculum/Part-III/) | [**PART IV**](https://mave9055.github.io/wrh-master-curriculum/Part-IV/)
 
 ---
