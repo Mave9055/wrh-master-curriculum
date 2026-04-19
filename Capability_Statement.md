@@ -40,7 +40,10 @@ Capitol Contracts LLC is a professional training and educational support service
 ---
 **Contact Information**
 Capitol Contracts LLC
-[Insert Contact Name/Email/Phone]
-[Insert Website URL]
+Daniel Lingar (Primary Owner/Manager)
+Business Address: 925 S Crawford St, Clarksville, AR 72830
+Email: info@capitolcontracts.com
+Phone: [Please provide phone]
+https://mave9055.github.io/wrh-master-curriculum/
 
 *Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.*

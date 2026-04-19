@@ -24,7 +24,7 @@ Our website may contain links to third-party sites. We are not responsible for t
 We reserve the right to update this Privacy Policy at any time. Any changes will be posted on this page with an updated revision date.
 
 ### **Contact Us**
-If you have any questions about this Privacy Policy, please contact us at [Insert Contact Email].
+If you have any questions about this Privacy Policy, please contact us at info@capitolcontracts.com.
 
 ---
 *Last Updated: April 17, 2026*
