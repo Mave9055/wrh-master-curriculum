@@ -43,6 +43,8 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 
 ## 🔗 Internal Resources
 * [Summary](./SUMMARY.md)
+* [About / Context](./About_Context.md)
+* [Resources](./Resources.md)
 * **[Capability Statement](./Capability_Statement.md)**
 * **[Privacy Policy](./Privacy_Policy.md)**
 * **[Terms of Use](./Terms_of_Use.md)**
