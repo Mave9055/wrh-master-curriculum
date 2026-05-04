@@ -39,7 +39,7 @@ The WRH Curriculum is a non-clinical psychoeducational intervention structured i
 ---
 
 ## 🏢 Prime Contractor: Capitol Contracts LLC
-*Certified Service-Disabled Veteran-Owned Small Business (SDVOSB)*
+*Certified   )*
 
 *   **UEI:** HH77KN5AV5X7
 *   **CAGE Code:** 9ZFJ6
