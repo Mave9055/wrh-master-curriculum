@@ -20,7 +20,7 @@ def parse_markdown_index(file_path):
         # Now using session-viewer.html?file=../Part-X/Session_X.md
         part_dir = os.path.basename(os.path.dirname(file_path))
         clean_target = target.lstrip('./')
-        final_target = f"session-viewer.html?file=../{part_dir}/{clean_target}"
+        final_target = f"session-viewer.html?file=curriculum/../{part_dir}/{clean_target}"
         sessions.append({'label': label, 'target': final_target})
     
     return title, sessions
@@ -120,8 +120,8 @@ mapping = {
 }
 
 for part, filename in mapping.items():
-    md_path = f"wrh-master-curriculum/{part}/index.md"
-    html_path = f"wrh-master-curriculum/curriculum/{filename}"
+    md_path = f"{part}/index.md"
+    html_path = f"curriculum/{filename}"
     if os.path.exists(md_path):
         title, sessions = parse_markdown_index(md_path)
         generate_html(part, title, sessions, html_path)
