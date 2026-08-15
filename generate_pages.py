@@ -20,7 +20,7 @@ def parse_markdown_index(file_path):
         # Now using session-viewer.html?file=../Part-X/Session_X.md
         part_dir = os.path.basename(os.path.dirname(file_path))
         clean_target = target.lstrip('./')
-        final_target = f"session-viewer.html?file=curriculum/../{part_dir}/{clean_target}"
+        final_target = f"session-viewer.html?file=../{part_dir}/{clean_target}"
         sessions.append({'label': label, 'target': final_target})
     
     return title, sessions
