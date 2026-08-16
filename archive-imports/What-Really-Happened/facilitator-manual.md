@@ -183,7 +183,7 @@ Format: In‑person or virtual (Zoom)
 > “Daniel didn't chase toxic women because he lacked self-respect. He chased them because they felt like home – and home had always been chaos. When a woman love‑bombed him, he thought it was rescue. When she pulled away, he thought it was his fault. That's not stupidity. That's biology.”
 
 **Core concept:**  
-> “Trauma bonding is an emotional attachment formed through cycles of abuse and intermittent reward. Daniel's ex‑wife Trinity used gaslighting and blame shifting. Then Kristina came – love bombing: excessive affection, constant attention, 'I'm different, I can handle you.' He opened up fast – trauma dumping – because he finally felt safe. Then she ghosted. His nervous system crashed. That's repetition compulsion – the subconscious drive to recreate old wounds hoping for a different ending.”
+> “Trauma bonding is an emotional attachment formed through cycles of abuse and intermittent reward. His ex-wife used gaslighting and blame shifting. Then Kristina came – love bombing: excessive affection, constant attention, 'I'm different, I can handle you.' He opened up fast – trauma dumping – because he finally felt safe. Then she ghosted. His nervous system crashed. That's repetition compulsion – the subconscious drive to recreate old wounds hoping for a different ending.”
 
 **Mirror moment:**  
 > “Think of a relationship where you felt addicted to the person – the highs were incredible, the lows devastating. What if that wasn't love? What if it was your trauma pattern recognizing itself?”
