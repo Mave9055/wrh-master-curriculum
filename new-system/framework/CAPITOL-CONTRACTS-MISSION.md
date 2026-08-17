@@ -64,7 +64,7 @@ It makes accountability more possible because the person can finally see the loo
 
 Capitol Contracts may provide:
 
-1. WRH Master Curriculum — the full 75/76-session system.
+1. WRH Master Curriculum — the full authoritative 76-session system.
 2. WRH Pilot Deployment Package — a shorter, field-ready implementation version.
 3. Top 10 Core — a low-barrier introduction program.
 4. Facilitator scripts and support materials.

@@ -70,19 +70,19 @@
 
 ---
 
-# The Master Manual of Self is the final integration of the 76-session flow
+# Session 76: The Master Manual of Self — final integration of the 76-session flow
 - The curriculum concludes by consolidating all 76 Sessions into a personalized technical manual.
 - **System-Integrated:** You are no longer "healed" or "broken"; you are an operator who knows their machine.
 - The goal is to move from being "driven by the code" to being the **Architect of the Future**.
 - **The Sovereignty Statement:** "I am the driver. I have the manual. I am the sovereign of my own life."
-- **Key Insight:** The work doesn't end at session 75; that's where your life as a conscious operator begins.
+- **Key Insight:** The work does not end at Session 75; Session 76 is the final integration where your life as a conscious operator begins.
 
 ---
 
 # A standardized, non-clinical solution for institutional scale
 - Designed for federal and institutional buyers (VA, DoD, SAMHSA) with a focus on procurement requirements.
 - **Facilitator Standardization:** Full scripts allow non-clinical facilitators to deliver high-impact training with low risk.
-- **Three-Tier Structure:** Flexible options from Foundation (26 sessions) to the full Master (76 Sessions) package.
+- **Three-Tier Structure:** Flexible options from Foundation (26 sessions) to the full Master (76-session) package; the Foundation option is a scoped subset, not the full curriculum.
 - Proprietary IP of **Capitol Contracts LLC**, framing recovery as a professional training and risk mitigation strategy.
 - **Key Insight:** We provide the technical manual for the most complex machine on earth—the human nervous system.
 ---
