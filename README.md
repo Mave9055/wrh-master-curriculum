@@ -12,7 +12,7 @@ The homepage is an orientation layer. The **[Curriculum Map](https://daniel-ling
 
 ## What changed in the redesign
 
-The site now uses a dark editorial design system with responsive navigation, accessible focus states, reading-progress feedback, a branded partner mark, stronger page hierarchy, and a dedicated session-reading experience. The session explorer loads a generated static catalog, preserves the original source files, supports title/content search, provides previous/next navigation, and saves the last-read session locally in the browser.
+The site now uses a premium luxury design system with a pure black canvas, warm white typography, brushed-gold rules and primary actions, and restrained royal-purple accents. Responsive navigation, accessible focus states, reading-progress feedback, a branded partner mark, stronger page hierarchy, and a dedicated session-reading experience keep the visual language consistent across the public site. The session explorer loads a generated static catalog, preserves the original source files, supports title/content search, provides previous/next navigation, and saves the last-read session locally in the browser.
 
 The source folders currently contain **77 Markdown session files** across four parts. The source material includes two records labeled Session 12; the explorer keeps both records distinct by using part-plus-filename identifiers rather than silently renumbering or deleting content.
 
@@ -25,12 +25,12 @@ The source folders currently contain **77 Markdown session files** across four p
 | `curriculum/session-viewer.html` | Searchable reader for the generated 77-record catalog |
 | `curriculum/part-1.html` through `part-4.html` | Part-level overview pages |
 | `Part-I/` through `Part-IV/` | Original source Markdown session content; source of truth |
-| `assets/css/styles.css` | Global dark-mode design system and responsive component styles |
+| `assets/css/styles.css` | Global black / white / gold / purple luxury design system and responsive component styles |
 | `assets/js/main.js` | Navigation, progress tracking, session reader, search, and local reading state |
 | `assets/data/sessions.json` | Generated static session catalog consumed by the explorer |
 | `scripts/build_session_catalog.py` | Rebuilds `sessions.json` from the original Part-I through Part-IV Markdown |
 | `docs/` | Safety, implementation, and supporting documentation |
-| `404.html`, `robots.txt`, `sitemap.xml` | GitHub Pages error handling and SEO support |
+| `404.html`, `robots.txt`, `sitemap.xml`, `site.webmanifest` | GitHub Pages error handling, SEO support, and install metadata |
 | `Privacy_Policy.md`, `Terms_of_Use.md`, `LICENSE` | Repository-level legal and licensing documents |
 
 ## Local development
