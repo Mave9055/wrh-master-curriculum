@@ -1,5 +1,5 @@
 title: "WRH Master Curriculum"
-description: "What Really Happened™ Master Curriculum — non-clinical trauma-literacy and survival-mode education gateway."
+description: "What Really Happened™ Master Curriculum — 77-session non-clinical education for survival literacy, systems navigation, resilience, and safe facilitation."
 author: "Daniel Bret Lingar / Capitol Contracts LLC"
 
 url: "https://daniel-lingar.github.io"
@@ -22,6 +22,11 @@ permalink: pretty
 
 include:
   - index.html
+  - curriculum/session-viewer.html
+  - assets/data
+  - robots.txt
+  - sitemap.xml
+  - site.webmanifest
 
 exclude:
   - README.md

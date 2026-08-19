@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daniel-lingar.github.io/wrh-master-curriculum/sitemap.xml

@@ -1,0 +1,10 @@
+{
+  "name": "WRH Master Curriculum",
+  "short_name": "WRH Curriculum",
+  "description": "A 77-session, non-clinical curriculum for survival literacy, systems navigation, resilience, and safe facilitation.",
+  "start_url": "/wrh-master-curriculum/",
+  "display": "standalone",
+  "background_color": "#080b10",
+  "theme_color": "#080b10",
+  "icons": []
+}

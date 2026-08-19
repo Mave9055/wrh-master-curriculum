@@ -1,78 +1,78 @@
-<p align="center">
-  <img src="assets/capitol_contracts_logo.png" alt="Capitol Contracts Logo" width="400">
-</p>
+# What Really Happened™ — WRH Master Curriculum
 
-# What Really Happened (WRH) — Master Curriculum
+> **Non-clinical education. No required disclosure. Clear safety boundaries.**
 
-> [!IMPORTANT]
-> **NOT THERAPY. NO DISCLOSURE. NON-CLINICAL EDUCATION.**
-> WRH is a structured psychoeducational curriculum focused on pattern recognition, system logic, nervous-system adaptation, and practical language-building. It does not require or encourage participants to disclose personal trauma history.
+WRH is a structured psychoeducational curriculum focused on survival literacy, system logic, nervous-system adaptation, practical language-building, and facilitator consistency. It is not therapy, diagnosis, medical advice, or a replacement for licensed care.
 
-## Live Website
-The curriculum is available as a live, interactive website:  
-**[https://daniel-lingar.github.io/wrh-master-curriculum/](https://daniel-lingar.github.io/wrh-master-curriculum/)**
+## Live site
 
-## Project Overview
-What Really Happened™ (WRH) is a comprehensive non-clinical psychoeducational curriculum developed by Capitol Contracts LLC. It translates trauma responses, addiction patterns, freeze responses, shame cycles, and survival behavior into predictable mechanisms rather than character flaws.
+The redesigned GitHub Pages site is available at **[daniel-lingar.github.io/wrh-master-curriculum](https://daniel-lingar.github.io/wrh-master-curriculum/)**.
 
-WRH is designed for:
-- Recovery-support settings
-- Veteran-support programs
-- Reentry environments
-- Diversion programs
-- Peer-support contexts
-- Institutional review settings
+The homepage is an orientation layer. The **[Curriculum Map](https://daniel-lingar.github.io/wrh-master-curriculum/curriculum/)** explains the four-part architecture, while the **[Session Explorer](https://daniel-lingar.github.io/wrh-master-curriculum/curriculum/session-viewer.html)** provides searchable reading access to all 77 source Markdown records.
 
-## Core Principles
-- **Not Therapy:** Educational, not therapeutic treatment.
-- **Not Diagnosis:** No clinical diagnosis of mental health conditions.
-- **Safety Boundaries:** Clear protocols and crisis management frameworks.
-- **Measurable Outcomes:** Data-driven pilot programs and continuous improvement.
+## What changed in the redesign
 
-## Website Directory Structure
-The repository has been reorganized into a professional website structure:
+The site now uses a dark editorial design system with responsive navigation, accessible focus states, reading-progress feedback, a branded partner mark, stronger page hierarchy, and a dedicated session-reading experience. The session explorer loads a generated static catalog, preserves the original source files, supports title/content search, provides previous/next navigation, and saves the last-read session locally in the browser.
 
-- `index.html`: Hero landing page and main navigation.
-- `curriculum/`: Dedicated section for modular curriculum access.
-  - `index.html`: Curriculum overview and table of contents.
-  - `part-1.html`: Survival Wiring & Trauma Literacy.
-  - `part-2.html`: Institutional Systems & Reentry.
-  - `part-3.html`: Resilience & Autonomy.
-  - `part-4.html`: Facilitation & Crisis Management.
-- `about.html`: Organization information and mission.
-- `start-here.html`: Comprehensive onboarding guide.
-- `capability-statement.html`: Capitol Contracts LLC capabilities.
-- `pilot-package.html`: Pilot program details and pricing.
-- `resources.html`: Learning resources and crisis support links.
-- `contact.html`: Contact form and organization details.
-- `assets/`:
-  - `css/`: Main stylesheet (responsive design).
-  - `js/`: Interactivity (navigation, form validation).
-  - `images/`: Logos, hero banners, icons, diagrams.
-- `docs/`: Supporting documentation and key frameworks.
-- `Part-I/` through `Part-IV/`: Original session content in Markdown format.
+The source folders currently contain **77 Markdown session files** across four parts. The source material includes two records labeled Session 12; the explorer keeps both records distinct by using part-plus-filename identifiers rather than silently renumbering or deleting content.
 
-## Program Architecture
-The master curriculum is organized into four comprehensive parts:
+## Repository map
 
-1. **Part I: Survival Wiring & Trauma Literacy**  
-   Foundational survival laws, pattern recognition, and nervous-system adaptation.
-2. **Part II: Institutional Systems & Reentry**  
-   Core operational journey focused on navigating complex systems and reentry.
-3. **Part III: Resilience & Autonomy**  
-   Advanced pattern analysis, building agency, and integrated behavioral-institutional models.
-4. **Part IV: Facilitation & Crisis Management**  
-   Delivery standards, facilitator scripts, safety protocols, and implementation support.
+| Path | Purpose |
+| --- | --- |
+| `index.html` | Homepage, scope boundary, entry points, and curriculum map preview |
+| `curriculum/index.html` | Four-part curriculum map and implementation entry points |
+| `curriculum/session-viewer.html` | Searchable reader for the generated 77-record catalog |
+| `curriculum/part-1.html` through `part-4.html` | Part-level overview pages |
+| `Part-I/` through `Part-IV/` | Original source Markdown session content; source of truth |
+| `assets/css/styles.css` | Global dark-mode design system and responsive component styles |
+| `assets/js/main.js` | Navigation, progress tracking, session reader, search, and local reading state |
+| `assets/data/sessions.json` | Generated static session catalog consumed by the explorer |
+| `scripts/build_session_catalog.py` | Rebuilds `sessions.json` from the original Part-I through Part-IV Markdown |
+| `docs/` | Safety, implementation, and supporting documentation |
+| `404.html`, `robots.txt`, `sitemap.xml` | GitHub Pages error handling and SEO support |
+| `Privacy_Policy.md`, `Terms_of_Use.md`, `LICENSE` | Repository-level legal and licensing documents |
+
+## Local development
+
+The site is intentionally static and can be previewed with any static HTTP server. From the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open `http://localhost:8000/`. The session explorer uses `fetch()` to load `assets/data/sessions.json`, so preview it through HTTP rather than opening the HTML file directly from the filesystem.
+
+If source Markdown files change, rebuild the browser catalog:
+
+```bash
+python3 scripts/build_session_catalog.py
+```
+
+The build script uses Python-Markdown to generate HTML fragments and compact metadata. It does not modify the original Markdown files.
+
+## Program architecture
+
+| Part | Focus | Intended use |
+| --- | --- | --- |
+| **Part I** | Survival wiring and trauma literacy | Foundational pattern recognition and nervous-system language |
+| **Part II** | Institutional systems and reentry | Practical navigation, advocacy, and systems friction |
+| **Part III** | Resilience and autonomy | Agency, identity, sustainable change, and integrated models |
+| **Part IV** | Facilitation and crisis management | Delivery standards, safety protocols, escalation, and implementation |
+
+## Safety and scope
+
+WRH is educational. Facilitators should review local crisis contacts, stop criteria, referral pathways, and site-specific policies before delivery. If someone is in immediate danger or acute crisis, pause the curriculum and use the local emergency or clinical support pathway defined by the program site.
+
+See the [Safety and Escalation guide](docs/safety-and-escalation.html), [Implementation Guide](docs/implementation-guide.html), [Privacy Policy](privacy-policy.html), and [Terms of Use](terms-of-use.html) for additional context.
 
 ## About Capitol Contracts LLC
+
 Capitol Contracts LLC develops structured, non-clinical psychoeducational materials and training frameworks for implementation partners.
 
-**Federal Contracting Identifiers:**
-- **Unique Entity Identifier (UEI):** HH77KN5AV5X7
-- **Commercial and Government Entity (CAGE) Code:** 9ZFJ6
+- **UEI:** HH77KN5AV5X7
+- **CAGE:** 9ZFJ6
 - **Primary NAICS:** 611710 — Educational Support Services
+- **Contact:** [capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)
 
-**Contact:** [capitolcontracts@outlook.com](mailto:capitolcontracts@outlook.com)
-
----
-*&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.*
+© 2026 Capitol Contracts LLC. What Really Happened™ is a trademark of Capitol Contracts LLC.
