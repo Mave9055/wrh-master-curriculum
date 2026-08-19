@@ -1,415 +1,170 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Privacy Policy | WRH Master Curriculum</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0a0a0a',
-                        zinc: { 950: '#09090b', 900: '#18181b', 800: '#27272a' },
-                        amber: { 500: '#f59e0b', 600: '#d97706', 400: '#fbbf24' }
-                    },
-                    fontFamily: {
-                        'display': ['Space Grotesk', 'sans-serif'],
-                        'body': ['Inter', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #09090b 0%, #0f0f1a 50%, #09090b 100%);
-            position: relative;
-            overflow-x: hidden;
-        }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.05) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        .sticky-nav {
-            backdrop-filter: blur(20px);
-            background: rgba(9, 9, 11, 0.7);
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            position: relative;
-            z-index: 100;
-        }
-
-        main {
-            position: relative;
-            z-index: 1;
-        }
-
-        h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 3rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 1.5rem;
-        }
-
-        h2 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 2rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 1.25rem;
-            margin-top: 2.5rem;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid rgba(245, 158, 11, 0.3);
-            position: relative;
-        }
-
-        h2::before {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            height: 2px;
-            width: 0;
-            background: linear-gradient(90deg, #f59e0b, #fbbf24);
-            animation: slideIn 0.6s ease-out forwards;
-        }
-
-        @keyframes slideIn {
-            to {
-                width: 100%;
-            }
-        }
-
-        p {
-            color: #d1d5db;
-            margin-bottom: 1.25rem;
-            font-size: 1.05rem;
-            line-height: 1.85;
-        }
-
-        a {
-            color: #fbbf24;
-            text-decoration: none;
-            font-weight: 500;
-            position: relative;
-            transition: all 0.3s ease;
-            border-bottom: 2px solid rgba(251, 191, 36, 0.3);
-        }
-
-        a:hover {
-            color: #f59e0b;
-            border-bottom-color: #f59e0b;
-            transform: translateX(2px);
-        }
-
-        ul {
-            list-style: none;
-            margin-bottom: 1.5rem;
-            margin-left: 1.5rem;
-        }
-
-        li {
-            color: #d1d5db;
-            margin-bottom: 0.75rem;
-            font-size: 1.05rem;
-            line-height: 1.75;
-            position: relative;
-        }
-
-        li::before {
-            content: '•';
-            color: #fbbf24;
-            position: absolute;
-            left: -1.5rem;
-        }
-
-        .back-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            background: rgba(245, 158, 11, 0.1);
-            border: 1px solid rgba(245, 158, 11, 0.3);
-            color: #fbbf24;
-            text-decoration: none;
-            border-radius: 0.5rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            margin-bottom: 2rem;
-        }
-
-        .back-button:hover {
-            background: rgba(245, 158, 11, 0.2);
-            border-color: #f59e0b;
-            transform: translateX(-4px);
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(9, 9, 11, 0.9);
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            padding: 4rem 0 2rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        footer h4 {
-            font-family: 'Space Grotesk', sans-serif;
-            color: #fbbf24;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-
-        footer a {
-            color: #9ca3af;
-            text-decoration: none;
-            transition: color 0.3s ease;
-            border-bottom: none;
-        }
-
-        footer a:hover {
-            color: #fbbf24;
-        }
-
-        footer ul {
-            list-style: none;
-            margin-left: 0;
-        }
-
-        footer li {
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        footer li::before {
-            content: none;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            margin-top: 2rem;
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            color: #6b7280;
-            font-size: 0.875rem;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgba(9, 9, 11, 0.5);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, #f59e0b, #fbbf24);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, #fbbf24, #f59e0b);
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Privacy Policy - WRH Master Curriculum">
+  <title>Privacy Policy - WRH Master Curriculum</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">WRH Master Curriculum</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="start-here.html">Start Here</a></li>
+          <li><a href="capability-statement.html">Capability</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center">
-                    <a href="index.html" class="text-xl font-bold text-white tracking-tight font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Home</a>
-                    <a href="curriculum/index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Curriculum</a>
-                    <a href="start-here.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Start Here</a>
-                    <a href="pilot-package.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Pilot Package</a>
-                    <a href="contact.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
-                </div>
-            </div>
-        </div>
-    </nav>
+  <!-- Breadcrumb -->
+  <section style="background-color: #f9fafb; padding: 1rem 0; border-bottom: 1px solid #e5e7eb;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Privacy Policy</span>
+      </div>
+    </div>
+  </section>
 
-    <!-- Main Content -->
-    <main class="py-20">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-8">
-                <a href="index.html" class="back-button">&larr; Return to Portal</a>
-            </div>
+  <!-- Main Content -->
+  <section>
+    <div class="container">
+      <h1>Privacy Policy</h1>
+      
+      <p class="text-xl text-zinc-400 mb-8">Your privacy is critically important to us.</p>
 
-            <h1>Privacy Policy</h1>
-            <p class="text-xl text-zinc-400 mb-8">Your privacy is critically important to us.</p>
+      <div class="card mb-4">
+        <h2>Introduction</h2>
+        <p>Capitol Contracts LLC operates the WRH Master Curriculum website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
+        <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.</p>
+      </div>
 
-            <section class="mb-12">
-                <h2>Introduction</h2>
-                <p>Capitol Contracts LLC operates the WRH Master Curriculum website. This page informs you of our policies regarding the collection, use, and disclosure of personal data when you use our Service and the choices you have associated with that data.</p>
-                <p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy.</p>
-            </section>
+      <div class="card mb-4">
+        <h2>Information Collection And Use</h2>
+        <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+        
+        <h3>Types of Data Collected</h3>
+        <h4>Personal Data</h4>
+        <p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+        <ul>
+          <li>Email address</li>
+          <li>First name and last name</li>
+          <li>Phone number</li>
+          <li>Address, State, Province, ZIP/Postal code, City</li>
+          <li>Cookies and Usage Data</li>
+        </ul>
 
-            <section class="mb-12">
-                <h2>Information Collection And Use</h2>
-                <p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
-                <h3>Types of Data Collected</h3>
-                <h4>Personal Data</h4>
-                <p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
-                <ul>
-                    <li>Email address</li>
-                    <li>First name and last name</li>
-                    <li>Phone number</li>
-                    <li>Address, State, Province, ZIP/Postal code, City</li>
-                    <li>Cookies and Usage Data</li>
-                </ul>
-                <h4>Usage Data</h4>
-                <p>We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
-                <h4>Tracking & Cookies Data</h4>
-                <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
-                <p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
-                <p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
-            </section>
+        <h4>Usage Data</h4>
+        <p>We may also collect information how the Service is accessed and used ("Usage Data"). This Usage Data may include information such as your computer's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages, unique device identifiers and other diagnostic data.</p>
 
-            <section class="mb-12">
-                <h2>Use of Data</h2>
-                <p>Capitol Contracts LLC uses the collected data for various purposes:</p>
-                <ul>
-                    <li>To provide and maintain the Service</li>
-                    <li>To notify you about changes to our Service</li>
-                    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
-                    <li>To provide customer care and support</li>
-                    <li>To provide analysis or valuable information so that we can improve the Service</li>
-                    <li>To monitor the usage of the Service</li>
-                    <li>To detect, prevent and address technical issues</li>
-                </ul>
-            </section>
+        <h4>Tracking & Cookies Data</h4>
+        <p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+        <p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+      </div>
 
-            <section class="mb-12">
-                <h2>Disclosure Of Data</h2>
-                <h3>Legal Requirements</h3>
-                <p>Capitol Contracts LLC may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
-                <ul>
-                    <li>To comply with a legal obligation</li>
-                    <li>To protect and defend the rights or property of Capitol Contracts LLC</li>
-                    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
-                    <li>To protect the personal safety of users of the Service or the public</li>
-                    <li>To protect against legal liability</li>
-                </ul>
-            </section>
+      <div class="card mb-4">
+        <h2>Use of Data</h2>
+        <p>Capitol Contracts LLC uses the collected data for various purposes:</p>
+        <ul>
+          <li>To provide and maintain the Service</li>
+          <li>To notify you about changes to our Service</li>
+          <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+          <li>To provide customer care and support</li>
+          <li>To provide analysis or valuable information so that we can improve the Service</li>
+          <li>To monitor the usage of the Service</li>
+          <li>To detect, prevent and address technical issues</li>
+        </ul>
+      </div>
 
-            <section class="mb-12">
-                <h2>Security Of Data</h2>
-                <p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
-            </section>
+      <div class="card mb-4">
+        <h2>Disclosure Of Data</h2>
+        <h3>Legal Requirements</h3>
+        <p>Capitol Contracts LLC may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+        <ul>
+          <li>To comply with a legal obligation</li>
+          <li>To protect and defend the rights or property of Capitol Contracts LLC</li>
+          <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+          <li>To protect the personal safety of users of the Service or the public</li>
+          <li>To protect against legal liability</li>
+        </ul>
+      </div>
 
-            <section class="mb-12">
-                <h2>Service Providers</h2>
-                <p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
-                <p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
-            </section>
+      <div class="card mb-4">
+        <h2>Security Of Data</h2>
+        <p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+      </div>
 
-            <section class="mb-12">
-                <h2>Links To Other Sites</h2>
-                <p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party's site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
-                <p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
-            </section>
+      <div class="card mb-4">
+        <h2>Children's Privacy</h2>
+        <p>Our Service does not address anyone under the age of 18 ("Children").</p>
+        <p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+      </div>
 
-            <section class="mb-12">
-                <h2>Children's Privacy</h2>
-                <p>Our Service does not address anyone under the age of 18 ("Children").</p>
-                <p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
-            </section>
+      <div class="card">
+        <h2>Contact Us</h2>
+        <p>If you have any questions about this Privacy Policy, please contact us:</p>
+        <ul>
+          <li>By email: <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
 
-            <section>
-                <h2>Changes To This Privacy Policy</h2>
-                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-                <p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
-            </section>
-        </div>
-    </main>
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <h4>WRH Master Curriculum</h4>
+        <p>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="resources.html">Learning Resources</a></li>
+          <li><a href="capability-statement.html">Capability Statement</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></li>
+          <li><strong>Organization:</strong> Capitol Contracts LLC</li>
+          <li><strong>UEI:</strong> HH77KN5AV5X7</li>
+          <li><strong>CAGE:</strong> 9ZFJ6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.</p>
+    </div>
+  </footer>
 
-    <!-- Footer -->
-    <footer>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                <div class="col-span-1 md:col-span-2">
-                    <a href="index.html" class="text-2xl font-bold text-white tracking-tight mb-6 block font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                    <p class="text-zinc-400 max-w-sm mb-6">
-                        Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
-                    </p>
-                </div>
-                <div>
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="curriculum/index.html">Curriculum</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="resources.html">Learning Resources</a></li>
-                        <li><a href="capability-statement.html">Capability Statement</a></li>
-                        <li><a href="pilot-package.html">Pilot Package</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms-of-use.html">Terms of Use</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
-                UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
-            </div>
-        </div>
-    </footer>
-
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

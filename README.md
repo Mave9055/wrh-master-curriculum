@@ -9,7 +9,7 @@
 > WRH is a structured psychoeducational curriculum focused on pattern recognition, system logic, nervous-system adaptation, and practical language-building. It does not require or encourage participants to disclose personal trauma history.
 
 ## Live Website
-The curriculum is available as a live, interactive website:
+The curriculum is available as a live, interactive website:  
 **[https://daniel-lingar.github.io/wrh-master-curriculum/](https://daniel-lingar.github.io/wrh-master-curriculum/)**
 
 ## Project Overview
@@ -55,13 +55,13 @@ The repository has been reorganized into a professional website structure:
 ## Program Architecture
 The master curriculum is organized into four comprehensive parts:
 
-1. **Part I: Survival Wiring & Trauma Literacy**
+1. **Part I: Survival Wiring & Trauma Literacy**  
    Foundational survival laws, pattern recognition, and nervous-system adaptation.
-2. **Part II: Institutional Systems & Reentry**
+2. **Part II: Institutional Systems & Reentry**  
    Core operational journey focused on navigating complex systems and reentry.
-3. **Part III: Resilience & Autonomy**
+3. **Part III: Resilience & Autonomy**  
    Advanced pattern analysis, building agency, and integrated behavioral-institutional models.
-4. **Part IV: Facilitation & Crisis Management**
+4. **Part IV: Facilitation & Crisis Management**  
    Delivery standards, facilitator scripts, safety protocols, and implementation support.
 
 ## About Capitol Contracts LLC

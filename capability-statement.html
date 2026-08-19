@@ -1,451 +1,276 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Capability Statement | WRH Master Curriculum</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0a0a0a',
-                        zinc: { 950: '#09090b', 900: '#18181b', 800: '#27272a' },
-                        amber: { 500: '#f59e0b', 600: '#d97706', 400: '#fbbf24' }
-                    },
-                    fontFamily: {
-                        'display': ['Space Grotesk', 'sans-serif'],
-                        'body': ['Inter', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #09090b 0%, #0f0f1a 50%, #09090b 100%);
-            position: relative;
-            overflow-x: hidden;
-        }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.05) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.05) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: 0;
-        }
-
-        .sticky-nav {
-            backdrop-filter: blur(20px);
-            background: rgba(9, 9, 11, 0.7);
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            position: relative;
-            z-index: 100;
-        }
-
-        main {
-            position: relative;
-            z-index: 1;
-        }
-
-        h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 3rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 1.5rem;
-        }
-
-        h2 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 2rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 1.25rem;
-            margin-top: 2.5rem;
-            padding-bottom: 1rem;
-            border-bottom: 2px solid rgba(245, 158, 11, 0.3);
-            position: relative;
-        }
-
-        h2::before {
-            content: '';
-            position: absolute;
-            bottom: -2px;
-            left: 0;
-            height: 2px;
-            width: 0;
-            background: linear-gradient(90deg, #f59e0b, #fbbf24);
-            animation: slideIn 0.6s ease-out forwards;
-        }
-
-        @keyframes slideIn {
-            to {
-                width: 100%;
-            }
-        }
-
-        h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #fbbf24;
-            margin-bottom: 1rem;
-            margin-top: 1.75rem;
-        }
-
-        p {
-            color: #d1d5db;
-            margin-bottom: 1.25rem;
-            font-size: 1.05rem;
-            line-height: 1.85;
-        }
-
-        a {
-            color: #fbbf24;
-            text-decoration: none;
-            font-weight: 500;
-            position: relative;
-            transition: all 0.3s ease;
-            border-bottom: 2px solid rgba(251, 191, 36, 0.3);
-        }
-
-        a:hover {
-            color: #f59e0b;
-            border-bottom-color: #f59e0b;
-            transform: translateX(2px);
-        }
-
-        ul {
-            list-style: none;
-            margin-bottom: 1.5rem;
-            margin-left: 1.5rem;
-        }
-
-        li {
-            color: #d1d5db;
-            margin-bottom: 0.75rem;
-            font-size: 1.05rem;
-            line-height: 1.75;
-            position: relative;
-        }
-
-        li::before {
-            content: '•';
-            color: #fbbf24;
-            position: absolute;
-            left: -1.5rem;
-        }
-
-        .back-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.5rem;
-            padding: 0.75rem 1.5rem;
-            background: rgba(245, 158, 11, 0.1);
-            border: 1px solid rgba(245, 158, 11, 0.3);
-            color: #fbbf24;
-            text-decoration: none;
-            border-radius: 0.5rem;
-            font-weight: 500;
-            transition: all 0.3s ease;
-            margin-bottom: 2rem;
-        }
-
-        .back-button:hover {
-            background: rgba(245, 158, 11, 0.2);
-            border-color: #f59e0b;
-            transform: translateX(-4px);
-        }
-
-        .table-container {
-            overflow-x: auto;
-            margin-bottom: 2rem;
-            border: 1px solid rgba(245, 158, 11, 0.2);
-            border-radius: 0.75rem;
-            backdrop-filter: blur(10px);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            min-width: 600px; /* Ensure table is readable on smaller screens */
-        }
-
-        th, td {
-            padding: 1rem;
-            text-align: left;
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-        }
-
-        th {
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.15), rgba(59, 130, 246, 0.1));
-            color: #fbbf24;
-            font-weight: 600;
-        }
-
-        td {
-            color: #d1d5db;
-            background-color: rgba(24, 24, 35, 0.2);
-        }
-
-        tr:hover td {
-            background-color: rgba(245, 158, 11, 0.05);
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(9, 9, 11, 0.9);
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            padding: 4rem 0 2rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        footer h4 {
-            font-family: 'Space Grotesk', sans-serif;
-            color: #fbbf24;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-
-        footer a {
-            color: #9ca3af;
-            text-decoration: none;
-            transition: color 0.3s ease;
-            border-bottom: none;
-        }
-
-        footer a:hover {
-            color: #fbbf24;
-        }
-
-        footer ul {
-            list-style: none;
-            margin-left: 0;
-        }
-
-        footer li {
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        footer li::before {
-            content: none;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            margin-top: 2rem;
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            color: #6b7280;
-            font-size: 0.875rem;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgba(9, 9, 11, 0.5);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, #f59e0b, #fbbf24);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, #fbbf24, #f59e0b);
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2.5rem;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Capability Statement - Capitol Contracts LLC">
+  <title>Capability Statement - WRH Master Curriculum</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">WRH Master Curriculum</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="start-here.html">Start Here</a></li>
+          <li><a href="capability-statement.html">Capability</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center">
-                    <a href="index.html" class="text-xl font-bold text-white tracking-tight font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Home</a>
-                    <a href="curriculum/index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Curriculum</a>
-                    <a href="start-here.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Start Here</a>
-                    <a href="pilot-package.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Pilot Package</a>
-                    <a href="contact.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
-                </div>
-            </div>
+  <!-- Breadcrumb -->
+  <section style="background-color: #f9fafb; padding: 1rem 0; border-bottom: 1px solid #e5e7eb;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Capability Statement</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section>
+    <div class="container">
+      <h1>Capability Statement</h1>
+      
+      <div class="alert alert-info">
+        <strong>Capitol Contracts LLC</strong> — Specialized non-clinical education and training services for trauma literacy, survival-mode education, and institutional navigation.
+      </div>
+
+      <h2>Organization Overview</h2>
+      <div class="card">
+        <table>
+          <tr>
+            <td><strong>Organization Name:</strong></td>
+            <td>Capitol Contracts LLC</td>
+          </tr>
+          <tr>
+            <td><strong>Business Type:</strong></td>
+            <td>Specialized Education & Training Services</td>
+          </tr>
+          <tr>
+            <td><strong>Primary Service:</strong></td>
+            <td>What Really Happened™ (WRH) Master Curriculum</td>
+          </tr>
+          <tr>
+            <td><strong>Service Category:</strong></td>
+            <td>Non-clinical survival-mode education with safety boundaries</td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>Government Identifiers</h2>
+      <div class="card">
+        <table>
+          <tr>
+            <td><strong>UEI (Unique Entity Identifier):</strong></td>
+            <td>HH77KN5AV5X7</td>
+          </tr>
+          <tr>
+            <td><strong>CAGE Code (Commercial and Government Entity):</strong></td>
+            <td>9ZFJ6</td>
+          </tr>
+        </table>
+      </div>
+
+      <h2>Leadership</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Executive Authority</h3>
+          <p><strong>Captain William Dane Lingar</strong></p>
+          <p>Executive leadership and strategic direction for Capitol Contracts LLC and WRH program delivery.</p>
         </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="py-20">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-8">
-                <a href="index.html" class="back-button">&larr; Return to Portal</a>
-            </div>
-
-            <h1>Capability Statement</h1>
-            <p class="text-xl text-zinc-400 mb-8">Comprehensive overview of Capitol Contracts LLC and the WRH Master Curriculum.</p>
-
-            <section class="mb-12">
-                <h2>Core Competencies</h2>
-                <p>Capitol Contracts LLC specializes in developing and delivering innovative educational programs focused on survival literacy and resilience. Our core competencies include:</p>
-                <ul>
-                    <li>Curriculum Development: Designing evidence-informed, non-clinical psychoeducational content.</li>
-                    <li>Program Implementation: Strategic deployment of educational programs in diverse environments.</li>
-                    <li>Facilitator Training: Equipping professionals with the tools to deliver our curriculum effectively.</li>
-                    <li>Impact Measurement: Utilizing data-driven approaches to assess program effectiveness and outcomes.</li>
-                    <li>Behavioral Science Integration: Applying insights from neuroscience and psychology to practical education.</li>
-                </ul>
-            </section>
-
-            <section class="mb-12">
-                <h2>Differentiators</h2>
-                <p>What sets the WRH Master Curriculum apart:</p>
-                <ul>
-                    <li>Non-Clinical Focus: Provides education without requiring personal disclosure or clinical diagnosis.</li>
-                    <li>Adaptability: Designed for high-barrier environments, including reentry and diversion programs.</li>
-                    <li>Measurable Outcomes: Emphasis on pilot programs with trackable metrics for continuous improvement.</li>
-                    <li>Comprehensive Approach: Addresses trauma responses, addiction patterns, and survival behaviors holistically.</li>
-                    <li>Expert-Led Development: Curriculum developed by leading experts in behavioral science and trauma-informed care.</li>
-                </ul>
-            </section>
-
-            <section class="mb-12">
-                <h2>Past Performance</h2>
-                <p>Capitol Contracts LLC has a proven track record of successful program development and delivery. Our pilot programs have demonstrated significant improvements in participant engagement and understanding of survival literacy concepts. Specific case studies and references are available upon request.</p>
-            </section>
-
-            <section class="mb-12">
-                <h2>Company Data</h2>
-                <div class="table-container">
-                    <table>
-                        <thead>
-                            <tr>
-                                <th>Category</th>
-                                <th>Detail</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>Company Name</td>
-                                <td>Capitol Contracts LLC</td>
-                            </tr>
-                            <tr>
-                                <td>UEI</td>
-                                <td>HH77KN5AV5X7</td>
-                            </tr>
-                            <tr>
-                                <td>CAGE Code</td>
-                                <td>9ZFJ6</td>
-                            </tr>
-                            <tr>
-                                <td>NAICS Codes</td>
-                                <td>611430 (Professional and Management Development Training), 611710 (Educational Support Services)</td>
-                            </tr>
-                            <tr>
-                                <td>DUNS Number</td>
-                                <td>[Available upon request]</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </section>
-
-            <section>
-                <h2>Contact Information</h2>
-                <p>For more information or to discuss partnership opportunities, please contact us:</p>
-                <ul>
-                    <li>Email: <a href="mailto:lingardaniel1@gmail.com">lingardaniel1@gmail.com</a></li>
-                    <li>Phone: (555) 123-4567</li>
-                    <li>Website: <a href="index.html">www.wrhmaster.com</a></li>
-                </ul>
-            </section>
+        <div class="card">
+          <h3>Lead Architect</h3>
+          <p><strong>Daniel Bret Lingar</strong></p>
+          <p>Curriculum design, program architecture, and technical implementation of WRH Master Curriculum.</p>
         </div>
-    </main>
+      </div>
 
-    <!-- Footer -->
-    <footer>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                <div class="col-span-1 md:col-span-2">
-                    <a href="index.html" class="text-2xl font-bold text-white tracking-tight mb-6 block font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                    <p class="text-zinc-400 max-w-sm mb-6">
-                        Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
-                    </p>
-                </div>
-                <div>
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="curriculum/index.html">Curriculum</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="resources.html">Learning Resources</a></li>
-                        <li><a href="capability-statement.html">Capability Statement</a></li>
-                        <li><a href="pilot-package.html">Pilot Package</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms-of-use.html">Terms of Use</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
-                UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
-            </div>
+      <h2>Core Capabilities</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Curriculum Development</h3>
+          <p>Design and delivery of comprehensive, evidence-informed educational programs covering trauma literacy, institutional navigation, and resilience building.</p>
         </div>
-    </footer>
+        <div class="card">
+          <h3>Facilitator Training</h3>
+          <p>Training and certification programs for facilitators, including safety protocols, crisis management, and participant support frameworks.</p>
+        </div>
+        <div class="card">
+          <h3>Pilot Program Management</h3>
+          <p>Planning, implementation, and evaluation of bounded pilot programs with measurable outcomes and continuous improvement processes.</p>
+        </div>
+        <div class="card">
+          <h3>Safety & Compliance</h3>
+          <p>Development and implementation of safety protocols, risk management frameworks, and compliance procedures for all program delivery.</p>
+        </div>
+        <div class="card">
+          <h3>Outcomes Measurement</h3>
+          <p>Data collection, analysis, and reporting on program effectiveness, participant outcomes, and continuous improvement metrics.</p>
+        </div>
+        <div class="card">
+          <h3>Accessible Design</h3>
+          <p>Curriculum and program design specifically optimized for high-barrier populations, including limited literacy, technology access, and institutional experience.</p>
+        </div>
+      </div>
 
+      <h2>Service Offerings</h2>
+      
+      <h3>1. WRH Master Curriculum</h3>
+      <p>A comprehensive four-part educational program:</p>
+      <ul>
+        <li><strong>Part I:</strong> Survival Wiring & Trauma Literacy</li>
+        <li><strong>Part II:</strong> Institutional Systems & Reentry</li>
+        <li><strong>Part III:</strong> Resilience & Autonomy</li>
+        <li><strong>Part IV:</strong> Facilitation & Crisis Management</li>
+      </ul>
+
+      <h3>2. Pilot Program Packages</h3>
+      <p>Customized pilot programs for organizations including:</p>
+      <ul>
+        <li>Program design and planning</li>
+        <li>Facilitator recruitment and training</li>
+        <li>Participant recruitment and enrollment</li>
+        <li>Session delivery and support</li>
+        <li>Outcomes measurement and reporting</li>
+        <li>Continuous improvement and iteration</li>
+      </ul>
+
+      <h3>3. Facilitator Certification</h3>
+      <p>Comprehensive training and certification for program facilitators, including:</p>
+      <ul>
+        <li>Curriculum mastery</li>
+        <li>Safety protocols and crisis response</li>
+        <li>Participant support and trauma-informed practice</li>
+        <li>Compliance and risk management</li>
+        <li>Ongoing professional development</li>
+      </ul>
+
+      <h3>4. Consulting & Technical Assistance</h3>
+      <p>Specialized consulting for organizations implementing WRH or similar programs:</p>
+      <ul>
+        <li>Program design and architecture</li>
+        <li>Safety protocol development</li>
+        <li>Outcomes measurement framework</li>
+        <li>Staff training and capacity building</li>
+        <li>Compliance and risk management</li>
+      </ul>
+
+      <h2>Target Populations</h2>
+      <p>WRH services are specifically designed for:</p>
+      <ul>
+        <li>Reentry populations (formerly incarcerated individuals)</li>
+        <li>Diversion programs (alternatives to incarceration)</li>
+        <li>Recovery support programs (substance use, behavioral health)</li>
+        <li>Veterans and military-connected populations</li>
+        <li>High-barrier rooms and underserved communities</li>
+        <li>Individuals with limited literacy or technology access</li>
+        <li>Trauma-affected populations seeking education and support</li>
+      </ul>
+
+      <h2>Key Differentiators</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Non-Clinical Focus</h3>
+          <p>Educational, not therapeutic. Designed to complement, not replace, clinical mental health services.</p>
+        </div>
+        <div class="card">
+          <h3>Safety-First Approach</h3>
+          <p>Comprehensive safety protocols, trained facilitators, and crisis escalation procedures protect participant welfare.</p>
+        </div>
+        <div class="card">
+          <h3>Evidence-Informed</h3>
+          <p>Grounded in research on trauma, survival responses, and behavioral change, while remaining practical and accessible.</p>
+        </div>
+        <div class="card">
+          <h3>Measurable Outcomes</h3>
+          <p>Pilot programs include rigorous metrics tracking, participant feedback, and data-driven continuous improvement.</p>
+        </div>
+        <div class="card">
+          <h3>Accessible Design</h3>
+          <p>Intentionally designed for high-barrier populations with limited literacy, technology access, or institutional experience.</p>
+        </div>
+        <div class="card">
+          <h3>Comprehensive Support</h3>
+          <p>From curriculum development through facilitator training to ongoing technical assistance and outcomes measurement.</p>
+        </div>
+      </div>
+
+      <h2>Contact Information</h2>
+      <div class="card">
+        <p><strong>Email:</strong> <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></p>
+        <p><strong>Organization:</strong> Capitol Contracts LLC</p>
+        <p><strong>UEI:</strong> HH77KN5AV5X7</p>
+        <p><strong>CAGE Code:</strong> 9ZFJ6</p>
+      </div>
+
+      <div style="margin-top: 3rem; padding: 2rem; background-color: #f9fafb; border-radius: 0.5rem; text-align: center;">
+        <h2>Interested in Partnership?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Learn more about our pilot packages or discuss your organization's needs.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="pilot-package.html" class="btn btn-primary">View Pilot Package</a>
+          <a href="contact.html" class="btn btn-secondary">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <h4>WRH Master Curriculum</h4>
+        <p>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="resources.html">Learning Resources</a></li>
+          <li><a href="capability-statement.html">Capability Statement</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+          <li><a href="license.html">License</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></li>
+          <li><strong>Organization:</strong> Capitol Contracts LLC</li>
+          <li><strong>UEI:</strong> HH77KN5AV5X7</li>
+          <li><strong>CAGE:</strong> 9ZFJ6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>

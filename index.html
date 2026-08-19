@@ -1,620 +1,168 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WRH Master Curriculum | Home</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0a0a0a',
-                        zinc: {
-                            950: '#09090b',
-                            900: '#18181b',
-                            800: '#27272a',
-                        },
-                        amber: {
-                            500: '#f59e0b',
-                            600: '#d97706',
-                            400: '#fbbf24',
-                        }
-                    },
-                    fontFamily: {
-                        'display': ['Space Grotesk', 'sans-serif'],
-                        'body': ['Inter', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #09090b 0%, #0f0f1a 50%, #09090b 100%);
-            position: relative;
-            overflow-x: hidden;
-        }
-
-        /* Animated background */
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: 0;
-            animation: gradientShift 15s ease infinite;
-        }
-
-        @keyframes gradientShift {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.8; }
-        }
-
-        .sticky-nav {
-            backdrop-filter: blur(20px);
-            background: rgba(9, 9, 11, 0.7);
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            position: relative;
-            z-index: 100;
-        }
-
-        /* Hero Section */
-        .hero {
-            position: relative;
-            z-index: 1;
-            overflow: hidden;
-        }
-
-        .hero::before {
-            content: '';
-            position: absolute;
-            top: -50%;
-            right: -10%;
-            width: 600px;
-            height: 600px;
-            background: radial-gradient(circle, rgba(245, 158, 11, 0.15) 0%, transparent 70%);
-            border-radius: 50%;
-            animation: float 20s ease-in-out infinite;
-        }
-
-        @keyframes float {
-            0%, 100% { transform: translateY(0px) translateX(0px); }
-            50% { transform: translateY(-30px) translateX(20px); }
-        }
-
-        .hero-content {
-            position: relative;
-            z-index: 2;
-        }
-
-        .hero h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 4rem;
-            font-weight: 700;
-            letter-spacing: -0.02em;
-            line-height: 1.1;
-            margin-bottom: 1.5rem;
-            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 50%, #f59e0b 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            animation: fadeInDown 0.8s ease-out;
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .hero p {
-            font-size: 1.25rem;
-            color: #d1d5db;
-            margin-bottom: 2rem;
-            max-width: 600px;
-            animation: fadeInUp 0.8s ease-out 0.2s both;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* CTA Buttons */
-        .cta-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 1rem 2rem;
-            border-radius: 0.75rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-            cursor: pointer;
-        }
-
-        .cta-button-primary {
-            background: linear-gradient(135deg, #f59e0b, #fbbf24);
-            color: #09090b;
-            box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
-        }
-
-        .cta-button-primary:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 48px rgba(245, 158, 11, 0.4);
-        }
-
-        .cta-button-secondary {
-            background: rgba(245, 158, 11, 0.1);
-            color: #fbbf24;
-            border-color: rgba(245, 158, 11, 0.3);
-        }
-
-        .cta-button-secondary:hover {
-            background: rgba(245, 158, 11, 0.2);
-            border-color: #f59e0b;
-            transform: translateY(-4px);
-        }
-
-        /* Cards */
-        .card {
-            background: rgba(24, 24, 35, 0.4);
-            border: 1px solid rgba(245, 158, 11, 0.15);
-            border-radius: 1rem;
-            padding: 2rem;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-
-        .card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, transparent 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .card:hover {
-            border-color: rgba(245, 158, 11, 0.4);
-            transform: translateY(-8px);
-            box-shadow: 0 16px 48px rgba(245, 158, 11, 0.15);
-        }
-
-        .card:hover::before {
-            opacity: 1;
-        }
-
-        .card h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 1rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        .card p {
-            color: #d1d5db;
-            line-height: 1.8;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Section Styling */
-        section {
-            position: relative;
-            z-index: 1;
-            padding: 5rem 0;
-        }
-
-        section:nth-child(even) {
-            background: rgba(245, 158, 11, 0.02);
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-        }
-
-        .section-title {
-            text-align: center;
-            margin-bottom: 3rem;
-        }
-
-        .section-title h2 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 2.5rem;
-            font-weight: 700;
-            color: #ffffff;
-            margin-bottom: 1rem;
-            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .section-title p {
-            font-size: 1.1rem;
-            color: #9ca3af;
-        }
-
-        /* Icon Styling */
-        .icon-box {
-            width: 3rem;
-            height: 3rem;
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.2), rgba(59, 130, 246, 0.1));
-            border: 1px solid rgba(245, 158, 11, 0.2);
-            border-radius: 0.75rem;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-        }
-
-        .icon-box svg {
-            width: 1.5rem;
-            height: 1.5rem;
-            color: #fbbf24;
-        }
-
-        /* Grid */
-        .grid-auto {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 2rem;
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(9, 9, 11, 0.9);
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            padding: 4rem 0 2rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        footer h4 {
-            font-family: 'Space Grotesk', sans-serif;
-            color: #fbbf24;
-            font-weight: 700;
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-
-        footer a {
-            color: #9ca3af;
-            text-decoration: none;
-            transition: color 0.3s ease;
-        }
-
-        footer a:hover {
-            color: #fbbf24;
-        }
-
-        footer ul {
-            list-style: none;
-        }
-
-        footer li {
-            margin-bottom: 0.5rem;
-            font-size: 0.9rem;
-        }
-
-        .footer-bottom {
-            text-align: center;
-            padding-top: 2rem;
-            margin-top: 2rem;
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            color: #6b7280;
-            font-size: 0.875rem;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgba(9, 9, 11, 0.5);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, #f59e0b, #fbbf24);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, #fbbf24, #f59e0b);
-        }
-
-        /* Mobile Menu */
-        .menu-toggle {
-            display: none;
-            background: none;
-            border: none;
-            color: white;
-            font-size: 1.5rem;
-            cursor: pointer;
-        }
-
-        @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.5rem;
-            }
-
-            .hero p {
-                font-size: 1rem;
-            }
-
-            .section-title h2 {
-                font-size: 1.75rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="What Really Happened™ Master Curriculum — Non-clinical trauma-literacy and survival-mode education gateway.">
+  <meta name="author" content="Daniel Bret Lingar / Capitol Contracts LLC">
+  <title>WRH Master Curriculum - Home</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">WRH Master Curriculum</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="start-here.html">Start Here</a></li>
+          <li><a href="capability-statement.html">Capability</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center">
-                    <a href="index.html" class="text-xl font-bold text-white tracking-tight font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors">Home</a>
-                    <a href="curriculum/index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Curriculum</a>
-                    <a href="start-here.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Start Here</a>
-                    <a href="pilot-package.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Pilot Package</a>
-                    <a href="contact.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
-                </div>
-            </div>
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1>What Really Happened™ Master Curriculum</h1>
+      <p><strong>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.</strong></p>
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;">For reentry, diversion, recovery support, veterans, and high-barrier rooms.</p>
+      <div class="cta-buttons">
+        <a href="start-here.html" class="btn btn-secondary">Start Here</a>
+        <a href="curriculum/index.html" class="btn btn-outline">View Curriculum</a>
+        <a href="pilot-package.html" class="btn btn-outline">Pilot Package</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Key Features Section -->
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Core Principles</h2>
+        <p>WRH is structured education grounded in evidence and safety.</p>
+      </div>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Not Therapy</h3>
+          <p>WRH is educational, not therapeutic. We teach survival literacy and resilience frameworks without clinical diagnosis or treatment.</p>
         </div>
-    </nav>
-
-    <!-- Hero Section -->
-    <header class="hero relative py-32 overflow-hidden border-b border-zinc-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-            <div class="hero-content">
-                <h1>What Really Happened™<br/><span class="text-amber-400">Master Curriculum</span></h1>
-                <p>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery. Designed for reentry, diversion, and high-barrier environments.</p>
-                <div class="flex flex-col sm:flex-row justify-start gap-4">
-                    <a href="start-here.html" class="cta-button cta-button-primary">
-                        Start Here
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                        </svg>
-                    </a>
-                    <a href="curriculum/index.html" class="cta-button cta-button-secondary">
-                        View Curriculum
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                        </svg>
-                    </a>
-                </div>
-            </div>
+        <div class="card">
+          <h3>Not Diagnosis</h3>
+          <p>We do not diagnose conditions. Our curriculum supports participants in understanding their own experiences within structured frameworks.</p>
         </div>
-    </header>
-
-    <!-- Core Principles -->
-    <section class="py-20 bg-zinc-950">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="section-title">
-                <h2>Core Principles</h2>
-                <p>WRH is structured education grounded in evidence and safety.</p>
-            </div>
-            <div class="grid-auto">
-                <div class="card">
-                    <div class="icon-box">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
-                    </div>
-                    <h3>Not Therapy</h3>
-                    <p>Educational, not therapeutic. We teach survival literacy without clinical diagnosis.</p>
-                </div>
-                <div class="card">
-                    <div class="icon-box">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19.428 15.428a2 2 0 00-1.022-.547l-2.387-.477a6 6 0 00-3.86.517l-.318.158a6 6 0 01-3.86.517L6.05 15.21a2 2 0 00-1.806.547M8 4h8l-1 1v5.172a2 2 0 00.586 1.414l5 5c1.26 1.26.367 3.414-1.415 3.414H4.828c-1.782 0-2.674-2.154-1.414-3.414l5-5A2 2 0 009 10.172V5L8 4z"></path></svg>
-                    </div>
-                    <h3>Not Diagnosis</h3>
-                    <p>We support participants in understanding experiences within structured frameworks.</p>
-                </div>
-                <div class="card">
-                    <div class="icon-box">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
-                    </div>
-                    <h3>Safety First</h3>
-                    <p>Clear protocols and crisis management ensure participant safety throughout.</p>
-                </div>
-                <div class="card">
-                    <div class="icon-box">
-                        <svg fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2h2a2 2 0 002-2zM9 19h6m-6 0l6-6m0 0v6a2 2 0 002 2h2a2 2 0 002-2v-6a2 2 0 00-2-2h-2a2 2 0 00-2 2zm0 0V5a2 2 0 00-2-2h-2a2 2 0 00-2 2v14a2 2 0 002 2h2a2 2 0 002-2z"></path></svg>
-                    </div>
-                    <h3>Measurable</h3>
-                    <p>Pilot programs include metrics tracking and data-driven improvements.</p>
-                </div>
-            </div>
+        <div class="card">
+          <h3>Safety Boundaries</h3>
+          <p>Clear protocols, escalation procedures, and crisis management ensure participant safety throughout all sessions.</p>
         </div>
-    </section>
-
-    <!-- Curriculum Overview -->
-    <section class="py-20 bg-zinc-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="section-title">
-                <h2>Curriculum Structure</h2>
-                <p>Four comprehensive parts covering survival literacy and resilience.</p>
-            </div>
-            <div class="grid-auto">
-                <!-- Part I -->
-                <div class="card group">
-                    <div class="flex justify-between items-start mb-6">
-                        <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Part I</span>
-                        <svg class="w-6 h-6 text-zinc-500 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                    </div>
-                    <h3>Survival Wiring & Trauma Literacy</h3>
-                    <p>Foundational understanding of survival responses, freeze states, and trauma-informed frameworks.</p>
-                    <a href="curriculum/part-1.html" class="text-sm font-bold text-amber-400 hover:text-amber-300 mt-4 inline-block transition-colors">Explore Part I →</a>
-                </div>
-                <!-- Part II -->
-                <div class="card group">
-                    <div class="flex justify-between items-start mb-6">
-                        <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Part II</span>
-                        <svg class="w-6 h-6 text-zinc-500 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                    </div>
-                    <h3>Institutional Systems & Reentry</h3>
-                    <p>Navigation of complex systems, reentry pathways, and institutional interaction strategies.</p>
-                    <a href="curriculum/part-2.html" class="text-sm font-bold text-amber-400 hover:text-amber-300 mt-4 inline-block transition-colors">Explore Part II →</a>
-                </div>
-                <!-- Part III -->
-                <div class="card group">
-                    <div class="flex justify-between items-start mb-6">
-                        <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Part III</span>
-                        <svg class="w-6 h-6 text-zinc-500 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                    </div>
-                    <h3>Resilience & Autonomy</h3>
-                    <p>Building agency, autonomy restoration, and integrated behavioral-institutional systems models.</p>
-                    <a href="curriculum/part-3.html" class="text-sm font-bold text-amber-400 hover:text-amber-300 mt-4 inline-block transition-colors">Explore Part III →</a>
-                </div>
-                <!-- Part IV -->
-                <div class="card group">
-                    <div class="flex justify-between items-start mb-6">
-                        <span class="text-xs font-bold uppercase tracking-widest text-amber-400">Part IV</span>
-                        <svg class="w-6 h-6 text-zinc-500 group-hover:text-amber-400 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
-                    </div>
-                    <h3>Facilitation & Crisis Management</h3>
-                    <p>Facilitator toolkit, safety protocols, certification paths, and crisis response frameworks.</p>
-                    <a href="curriculum/part-4.html" class="text-sm font-bold text-amber-400 hover:text-amber-300 mt-4 inline-block transition-colors">Explore Part IV →</a>
-                </div>
-            </div>
+        <div class="card">
+          <h3>Measurable Outcomes</h3>
+          <p>Pilot programs include metrics tracking, participant feedback, and data-driven improvements for continuous optimization.</p>
         </div>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
-                <div class="col-span-1 md:col-span-2">
-                    <a href="index.html" class="text-2xl font-bold text-white tracking-tight mb-6 block font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                    <p class="text-zinc-400 max-w-sm mb-6">
-                        Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
-                    </p>
-                </div>
-                <div>
-                    <h4>Quick Links</h4>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="curriculum/index.html">Curriculum</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Resources</h4>
-                    <ul>
-                        <li><a href="resources.html">Learning Resources</a></li>
-                        <li><a href="capability-statement.html">Capability Statement</a></li>
-                        <li><a href="pilot-package.html">Pilot Package</a></li>
-                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
-                        <li><a href="terms-of-use.html">Terms of Use</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
-                UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
-            </div>
+  <!-- Curriculum Overview Section -->
+  <section>
+    <div class="container">
+      <div class="section-title">
+        <h2>Master Curriculum Structure</h2>
+        <p>Four comprehensive parts covering survival literacy, institutional systems, resilience, and facilitation.</p>
+      </div>
+      <div class="curriculum-grid">
+        <div class="curriculum-card">
+          <h3>Part I</h3>
+          <p>Survival Wiring & Trauma Literacy</p>
+          <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Foundational understanding of survival responses, freeze states, and trauma-informed frameworks.</p>
+          <a href="curriculum/part-1.html" class="btn">Explore Part I</a>
         </div>
-    </footer>
+        <div class="curriculum-card">
+          <h3>Part II</h3>
+          <p>Institutional Systems & Reentry</p>
+          <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Navigation of complex systems, reentry pathways, and institutional interaction strategies.</p>
+          <a href="curriculum/part-2.html" class="btn">Explore Part II</a>
+        </div>
+        <div class="curriculum-card">
+          <h3>Part III</h3>
+          <p>Resilience & Autonomy</p>
+          <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Building agency, autonomy restoration, and integrated behavioral-institutional systems models.</p>
+          <a href="curriculum/part-3.html" class="btn">Explore Part III</a>
+        </div>
+        <div class="curriculum-card">
+          <h3>Part IV</h3>
+          <p>Facilitation & Crisis Management</p>
+          <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">Facilitator toolkit, safety protocols, certification paths, and crisis response frameworks.</p>
+          <a href="curriculum/part-4.html" class="btn">Explore Part IV</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <script>
-        // Mobile menu toggle
-        const menuToggle = document.querySelector('.menu-toggle');
-        const nav = document.querySelector('nav ul');
+  <!-- Call to Action Section -->
+  <section style="background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%); color: white;">
+    <div class="container text-center">
+      <h2 style="color: white;">Ready to Get Started?</h2>
+      <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.1rem; margin-bottom: 2rem;">Explore our comprehensive curriculum or contact us to learn about pilot programs.</p>
+      <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+        <a href="start-here.html" class="btn btn-secondary">Start Here</a>
+        <a href="contact.html" class="btn btn-outline" style="border-color: white; color: white;">Contact Us</a>
+      </div>
+    </div>
+  </section>
 
-        if (menuToggle) {
-            menuToggle.addEventListener('click', () => {
-                nav.classList.toggle('active');
-            });
-        }
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <h4>WRH Master Curriculum</h4>
+        <p>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="resources.html">Learning Resources</a></li>
+          <li><a href="capability-statement.html">Capability Statement</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+          <li><a href="license.html">License</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></li>
+          <li><strong>Organization:</strong> Capitol Contracts LLC</li>
+          <li><strong>UEI:</strong> HH77KN5AV5X7</li>
+          <li><strong>CAGE:</strong> 9ZFJ6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.</p>
+    </div>
+  </footer>
 
-        // Smooth scroll
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function(e) {
-                const href = this.getAttribute('href');
-                if (href !== '#') {
-                    e.preventDefault();
-                    const target = document.querySelector(href);
-                    if (target) {
-                        target.scrollIntoView({ behavior: 'smooth' });
-                    }
-                }
-            });
-        });
-
-        // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
-
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
-
-        document.querySelectorAll('.card').forEach(card => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
-            card.style.transition = 'all 0.6s ease-out';
-            observer.observe(card);
-        });
-    </script>
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
-

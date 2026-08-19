@@ -1,149 +1,310 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Part III: Advanced System Specialization (Sessions 57–75) | WRH Master Curriculum</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0a0a0a',
-                        zinc: { 950: '#09090b', 900: '#18181b', 800: '#27272a' },
-                        amber: { 500: '#f59e0b', 600: '#d97706' }
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-        body { font-family: 'Inter', sans-serif; }
-        .sticky-nav { backdrop-filter: blur(12px); background-color: rgba(9, 9, 11, 0.8); }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Part III: Resilience & Autonomy - WRH Master Curriculum">
+  <title>Part III: Resilience & Autonomy - WRH Curriculum</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-<body class="bg-zinc-950 text-zinc-300 selection:bg-amber-500/30 selection:text-amber-500">
+<body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="../index.html">WRH Master Curriculum</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+      <nav>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">Curriculum</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../start-here.html">Start Here</a></li>
+          <li><a href="../capability-statement.html">Capability</a></li>
+          <li><a href="../pilot-package.html">Pilot Package</a></li>
+          <li><a href="../resources.html">Resources</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center">
-                    <a href="../index.html" class="text-xl font-bold text-white tracking-tight">
-                        WRH <span class="text-amber-500">Master</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="../index.html" class="text-sm font-medium hover:text-white transition-colors">Home</a>
-                    <a href="index.html" class="text-sm font-medium text-white hover:text-amber-500 transition-colors">Curriculum</a>
-                    <a href="../start-here.html" class="text-sm font-medium hover:text-white transition-colors">Start Here</a>
-                    <a href="../pilot-package.html" class="text-sm font-medium hover:text-white transition-colors">Pilot Package</a>
-                    <a href="../contact.html" class="text-sm font-medium hover:text-white transition-colors">Contact</a>
-                </div>
-            </div>
+  <!-- Breadcrumb -->
+  <section style="background-color: #f9fafb; padding: 1rem 0; border-bottom: 1px solid #e5e7eb;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="../index.html">Home</a>
+        <span>/</span>
+        <a href="index.html">Curriculum</a>
+        <span>/</span>
+        <span>Part III</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section>
+    <div class="container">
+      <h1>Part III: Resilience & Autonomy</h1>
+      
+      <p style="font-size: 1.1rem; margin-bottom: 2rem;"><strong>Building agency, autonomy restoration, and integrated behavioral-institutional systems models.</strong></p>
+
+      <div class="alert alert-info">
+        <strong>Part III brings it all together.</strong> This section integrates learning from Parts I and II to build resilience, restore autonomy, and create sustainable change.
+      </div>
+
+      <h2>Overview</h2>
+      <p>Part III focuses on building resilience and restoring autonomy. You will learn how to integrate the survival literacy from Part I with the institutional navigation skills from Part II to create sustainable change in your life. This part emphasizes agency, self-determination, and the connection between behavioral and institutional systems.</p>
+
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <h3>Duration</h3>
+            <p><strong>4-5 weeks</strong></p>
+            <p>Approximately 4-5 sessions of 2-3 hours each</p>
+          </div>
         </div>
-    </nav>
-
-    <main class="py-20">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="mb-12">
-                <a href="index.html" class="text-sm font-bold text-amber-500 hover:text-amber-400 mb-4 inline-block">&larr; Back to Index</a>
-                <h1 class="text-4xl font-extrabold text-white mb-2">Part III: Advanced System Specialization (Sessions 57–75)</h1>
-                <p class="text-lg text-zinc-400">Educational psychointervention focused on system logic and physiological adaptation.</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                
-                <a href="session-viewer.html?file=../Part-III/Session_57_Executive_Function_Capacity_Under_Cognitive_Load.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 57 Executive Function Capacity Under Cognitive Load</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_58_Institutional_Interaction_and_System_Induced_Stress_Exposure.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 58 Institutional Interaction and System Induced Stress Exposure</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_59_Stigma_as_a_Barrier_to_Behavioral_Health_Engagement.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 59 Stigma as a Barrier to Behavioral Health Engagement</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_60_Justice_System_Behavioral_Misclassification_Dynamics.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 60 Justice System Behavioral Misclassification Dynamics</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_61_Veteran_System_Navigation_and_Access_Barriers.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 61 Veteran System Navigation and Access Barriers</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_62_First_Responder_Occupational_Trauma_Exposure_Effects.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 62 First Responder Occupational Trauma Exposure Effects</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_63_Workplace_System_Stress_and_Behavioral_Regulation_Impact.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 63 Workplace System Stress and Behavioral Regulation Impact</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_64_Academic_System_Engagement_and_Cognitive_Access_Barriers.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 64 Academic System Engagement and Cognitive Access Barriers</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_65_Healthcare_System_Navigation_and_Continuity_of_Care_Barriers.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 65 Healthcare System Navigation and Continuity of Care Barriers</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_66_Interpersonal_System_Disruption_and_Relational_Instability.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 66 Interpersonal System Disruption and Relational Instability</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_67_Family_System_Dynamics_and_Developmental_Conditioning_Effects.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 67 Family System Dynamics and Developmental Conditioning Effects</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_68_Financial_System_Stress_and_Behavioral_Instability_Correlation.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 68 Financial System Stress and Behavioral Instability Correlation</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_69_Advocacy_System_Access_and_Representation_Barriers.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 69 Advocacy System Access and Representation Barriers</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_70_Cross_System_Integration_and_Multi_System_Engagement_Friction.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 70 Cross System Integration and Multi System Engagement Friction</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_71_Survival_System_Persistence_Under_Chronic_Stress_Exposure.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 71 Survival System Persistence Under Chronic Stress Exposure</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_72_Identity_Reclassification_Following_System_Interaction_Exposure.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 72 Identity Reclassification Following System Interaction Exposure</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_73_Autonomy_Restoration_and_Agency_Development_Framework.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 73 Autonomy Restoration and Agency Development Framework</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_74_Resilience_as_a_Systems_Interaction_Outcome.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 74 Resilience as a Systems Interaction Outcome</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-                <a href="session-viewer.html?file=../Part-III/Session_75_Integrated_BehavioralInstitutional_Systems_Model.md" class="p-4 bg-zinc-900 border border-zinc-800 rounded-xl hover:border-amber-500 transition-colors flex justify-between items-center group">
-                    <span class="text-zinc-300 group-hover:text-white transition-colors text-sm">Session 75 Integrated BehavioralInstitutional Systems Model</span>
-                    <svg class="w-4 h-4 text-zinc-600 group-hover:text-amber-500 flex-shrink-0 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
-                </a>
-            </div>
+        <div class="col">
+          <div class="card">
+            <h3>Format</h3>
+            <p><strong>Interactive Sessions</strong></p>
+            <p>Reflection, planning, peer support, and action-oriented activities</p>
+          </div>
         </div>
-    </main>
-
-    <footer class="bg-zinc-950 border-t border-zinc-900 py-12 mt-20">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <p class="text-zinc-500 text-sm">
-                Proprietary Intellectual Property of Capitol Contracts LLC. All Rights Reserved.<br/>
-                UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6
-            </p>
+        <div class="col">
+          <div class="card">
+            <h3>Prerequisites</h3>
+            <p><strong>Parts I & II Completion</strong></p>
+            <p>Understanding of trauma literacy and institutional systems</p>
+          </div>
         </div>
-    </footer>
+      </div>
+
+      <h2>Core Topics</h2>
+
+      <div style="margin-top: 2rem;">
+        <h3>Session 1: Understanding Resilience</h3>
+        <div class="card">
+          <p><strong>Key Concepts:</strong></p>
+          <ul>
+            <li>What is resilience? (not just "bouncing back")</li>
+            <li>Resilience as a systems outcome</li>
+            <li>Individual, relational, and community resilience</li>
+            <li>Building resilience through integrated approaches</li>
+          </ul>
+          <p><strong>Learning Objectives:</strong></p>
+          <ul>
+            <li>Understand resilience as a dynamic process</li>
+            <li>Recognize resilience factors in your life</li>
+            <li>Understand how systems support or hinder resilience</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <h3>Session 2: Autonomy Restoration & Agency Development</h3>
+        <div class="card">
+          <p><strong>Key Concepts:</strong></p>
+          <ul>
+            <li>What is autonomy and why it matters</li>
+            <li>How trauma and systems limit autonomy</li>
+            <li>Steps to restore autonomy and agency</li>
+            <li>Making choices and taking action</li>
+          </ul>
+          <p><strong>Learning Objectives:</strong></p>
+          <ul>
+            <li>Understand how autonomy has been limited in your life</li>
+            <li>Identify areas where you can restore agency</li>
+            <li>Develop skills for making and implementing choices</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <h3>Session 3: Identity & Reclassification</h3>
+        <div class="card">
+          <p><strong>Key Concepts:</strong></p>
+          <ul>
+            <li>How identity is shaped by experience and systems</li>
+            <li>Moving beyond limiting identities</li>
+            <li>Reclassification and reintegration</li>
+            <li>Creating a new narrative</li>
+          </ul>
+          <p><strong>Learning Objectives:</strong></p>
+          <ul>
+            <li>Examine how your identity has been shaped</li>
+            <li>Identify limiting beliefs or identities</li>
+            <li>Develop a more expansive sense of self</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <h3>Session 4: Integrated Systems & Sustainable Change</h3>
+        <div class="card">
+          <p><strong>Key Concepts:</strong></p>
+          <ul>
+            <li>Integrated behavioral-institutional systems models</li>
+            <li>How behavior and systems interact</li>
+            <li>Creating sustainable change at multiple levels</li>
+            <li>Building support and accountability</li>
+          </ul>
+          <p><strong>Learning Objectives:</strong></p>
+          <ul>
+            <li>Understand how behavior and systems interact</li>
+            <li>Identify leverage points for change</li>
+            <li>Create a sustainable action plan</li>
+          </ul>
+        </div>
+      </div>
+
+      <div style="margin-top: 2rem;">
+        <h3>Session 5 (Optional): Integration, Celebration & Looking Forward</h3>
+        <div class="card">
+          <p><strong>Key Concepts:</strong></p>
+          <ul>
+            <li>Integrating all three parts of the curriculum</li>
+            <li>Celebrating progress and growth</li>
+            <li>Peer support and community connection</li>
+            <li>Continuing your journey beyond WRH</li>
+          </ul>
+          <p><strong>Learning Objectives:</strong></p>
+          <ul>
+            <li>Consolidate learning from all three parts</li>
+            <li>Celebrate your growth and progress</li>
+            <li>Plan for continued growth and support</li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Learning Outcomes</h2>
+      <p>Upon completion of Part III, participants will be able to:</p>
+      <ul>
+        <li>Define resilience and understand it as a systems outcome</li>
+        <li>Identify resilience factors in their own lives</li>
+        <li>Understand how autonomy has been limited and how to restore it</li>
+        <li>Develop and exercise agency in their lives</li>
+        <li>Examine and reclassify limiting identities</li>
+        <li>Understand how behavior and systems interact</li>
+        <li>Create and implement sustainable action plans</li>
+        <li>Build and maintain peer support and community connections</li>
+        <li>Integrate learning from all three parts of the curriculum</li>
+      </ul>
+
+      <h2>Key Concepts & Terminology</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Term</th>
+            <th>Definition</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Resilience</strong></td>
+            <td>The capacity to adapt, recover, and grow in the face of adversity</td>
+          </tr>
+          <tr>
+            <td><strong>Agency</strong></td>
+            <td>The capacity and power to act and make choices</td>
+          </tr>
+          <tr>
+            <td><strong>Autonomy</strong></td>
+            <td>Self-governance and the ability to make decisions about one's own life</td>
+          </tr>
+          <tr>
+            <td><strong>Identity</strong></td>
+            <td>How you understand and describe yourself</td>
+          </tr>
+          <tr>
+            <td><strong>Reclassification</strong></td>
+            <td>Changing how you categorize or understand yourself or your situation</td>
+          </tr>
+          <tr>
+            <td><strong>Integrated Systems</strong></td>
+            <td>Understanding how individual behavior and institutional systems interact and influence each other</td>
+          </tr>
+          <tr>
+            <td><strong>Sustainable Change</strong></td>
+            <td>Change that lasts and is supported by multiple factors (individual, relational, and systemic)</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Resources & Further Learning</h2>
+      <p>To deepen your understanding of Part III concepts:</p>
+      <ul>
+        <li><strong>Peer Support:</strong> Connect with others who have completed WRH or similar programs</li>
+        <li><strong>Ongoing Learning:</strong> Continued education and skill-building opportunities</li>
+        <li><strong>Community Connection:</strong> See our <a href="../resources.html">Resources page</a> for community and peer support organizations</li>
+      </ul>
+
+      <h2>Important Reminders</h2>
+      <div class="alert alert-info">
+        <p><strong>Your Journey Continues:</strong> WRH is a beginning, not an ending. Your growth and resilience building continues beyond this curriculum.</p>
+      </div>
+
+      <div class="alert alert-success">
+        <p><strong>Celebrate Your Progress:</strong> Recognize and celebrate the growth, learning, and changes you've made through this curriculum.</p>
+      </div>
+
+      <h2>Navigation</h2>
+      <div style="margin-top: 2rem; display: flex; gap: 1rem; justify-content: space-between; flex-wrap: wrap;">
+        <a href="part-2.html" class="btn btn-outline">← Back to Part II</a>
+        <a href="part-4.html" class="btn btn-primary">Facilitator Resources (Part IV) →</a>
+      </div>
+
+      <div style="margin-top: 3rem; padding: 2rem; background-color: #f9fafb; border-radius: 0.5rem; text-align: center;">
+        <h3>Congratulations on Completing Parts I-III!</h3>
+        <p style="margin-bottom: 1.5rem;">You've built a strong foundation in trauma literacy, institutional navigation, and resilience. Continue your journey with peer support and ongoing learning.</p>
+        <p><a href="../resources.html" class="btn btn-primary">Explore Resources & Support</a></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <h4>WRH Master Curriculum</h4>
+        <p>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="index.html">Curriculum</a></li>
+          <li><a href="../about.html">About</a></li>
+          <li><a href="../contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="../resources.html">Learning Resources</a></li>
+          <li><a href="../capability-statement.html">Capability Statement</a></li>
+          <li><a href="../pilot-package.html">Pilot Package</a></li>
+          <li><a href="../privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../terms-of-use.html">Terms of Use</a></li>
+          <li><a href="../license.html">License</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></li>
+          <li><strong>Organization:</strong> Capitol Contracts LLC</li>
+          <li><strong>UEI:</strong> HH77KN5AV5X7</li>
+          <li><strong>CAGE:</strong> 9ZFJ6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
 </body>
 </html>

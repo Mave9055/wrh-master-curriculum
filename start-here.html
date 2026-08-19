@@ -1,440 +1,264 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Start Here | WRH Master Curriculum</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <script>
-        tailwind.config = {
-            darkMode: 'class',
-            theme: {
-                extend: {
-                    colors: {
-                        dark: '#0a0a0a',
-                        zinc: { 950: '#09090b', 900: '#18181b', 800: '#27272a' },
-                        amber: { 500: '#f59e0b', 600: '#d97706', 400: '#fbbf24' }
-                    },
-                    fontFamily: {
-                        'display': ['Space Grotesk', 'sans-serif'],
-                        'body': ['Inter', 'sans-serif']
-                    }
-                }
-            }
-        }
-    </script>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        html {
-            scroll-behavior: smooth;
-        }
-
-        body {
-            font-family: 'Inter', sans-serif;
-            background: linear-gradient(135deg, #09090b 0%, #0f0f1a 50%, #09090b 100%);
-            position: relative;
-            overflow-x: hidden;
-        }
-
-        body::before {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: radial-gradient(circle at 20% 50%, rgba(245, 158, 11, 0.08) 0%, transparent 50%),
-                        radial-gradient(circle at 80% 80%, rgba(59, 130, 246, 0.08) 0%, transparent 50%);
-            pointer-events: none;
-            z-index: 0;
-            animation: gradientShift 15s ease infinite;
-        }
-
-        @keyframes gradientShift {
-            0%, 100% { opacity: 1; }
-            50% { opacity: 0.8; }
-        }
-
-        .sticky-nav {
-            backdrop-filter: blur(20px);
-            background: rgba(9, 9, 11, 0.7);
-            border-bottom: 1px solid rgba(245, 158, 11, 0.1);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            position: relative;
-            z-index: 100;
-        }
-
-        main {
-            position: relative;
-            z-index: 1;
-        }
-
-        h1 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 3rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #ffffff 0%, #fbbf24 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            margin-bottom: 1.5rem;
-            animation: fadeInDown 0.8s ease-out;
-        }
-
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .intro-text {
-            font-size: 1.25rem;
-            color: #d1d5db;
-            margin-bottom: 2rem;
-            line-height: 1.8;
-            animation: fadeInUp 0.8s ease-out 0.2s both;
-        }
-
-        @keyframes fadeInUp {
-            from {
-                opacity: 0;
-                transform: translateY(30px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        /* Premium Card */
-        .premium-card {
-            background: rgba(24, 24, 35, 0.4);
-            border: 1px solid rgba(245, 158, 11, 0.15);
-            border-radius: 1rem;
-            padding: 2rem;
-            backdrop-filter: blur(10px);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-            margin-bottom: 2rem;
-            animation: slideIn 0.6s ease-out;
-        }
-
-        @keyframes slideIn {
-            from {
-                opacity: 0;
-                transform: translateY(20px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-        }
-
-        .premium-card::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            background: linear-gradient(135deg, rgba(245, 158, 11, 0.1) 0%, transparent 100%);
-            opacity: 0;
-            transition: opacity 0.3s ease;
-        }
-
-        .premium-card:hover {
-            border-color: rgba(245, 158, 11, 0.4);
-            transform: translateY(-8px);
-            box-shadow: 0 16px 48px rgba(245, 158, 11, 0.15);
-        }
-
-        .premium-card:hover::before {
-            opacity: 1;
-        }
-
-        .premium-card h2 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-size: 1.75rem;
-            font-weight: 600;
-            color: #ffffff;
-            margin-bottom: 1rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        .premium-card p {
-            color: #d1d5db;
-            line-height: 1.8;
-            position: relative;
-            z-index: 1;
-            margin-bottom: 1rem;
-        }
-
-        /* Feature Grid */
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        .feature-box {
-            background: rgba(245, 158, 11, 0.05);
-            border: 1px solid rgba(245, 158, 11, 0.2);
-            border-radius: 0.75rem;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-        }
-
-        .feature-box:hover {
-            background: rgba(245, 158, 11, 0.1);
-            border-color: rgba(245, 158, 11, 0.4);
-            transform: translateY(-4px);
-        }
-
-        .feature-box h3 {
-            font-family: 'Space Grotesk', sans-serif;
-            font-weight: 600;
-            color: #fbbf24;
-            margin-bottom: 0.5rem;
-            font-size: 1rem;
-        }
-
-        .feature-box p {
-            font-size: 0.95rem;
-            color: #9ca3af;
-        }
-
-        /* CTA Button */
-        .cta-button {
-            display: inline-flex;
-            align-items: center;
-            gap: 0.75rem;
-            padding: 1rem 2rem;
-            border-radius: 0.75rem;
-            font-weight: 600;
-            text-decoration: none;
-            transition: all 0.3s ease;
-            border: 2px solid transparent;
-            cursor: pointer;
-            font-size: 1.05rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        .cta-button-primary {
-            background: linear-gradient(135deg, #f59e0b, #fbbf24);
-            color: #09090b;
-            box-shadow: 0 8px 32px rgba(245, 158, 11, 0.3);
-        }
-
-        .cta-button-primary:hover {
-            transform: translateY(-4px);
-            box-shadow: 0 12px 48px rgba(245, 158, 11, 0.4);
-        }
-
-        /* Footer */
-        footer {
-            background: rgba(9, 9, 11, 0.9);
-            border-top: 1px solid rgba(245, 158, 11, 0.1);
-            padding: 2rem;
-            text-align: center;
-            color: #6b7280;
-            font-size: 0.875rem;
-            position: relative;
-            z-index: 1;
-        }
-
-        /* Scrollbar */
-        ::-webkit-scrollbar {
-            width: 8px;
-        }
-
-        ::-webkit-scrollbar-track {
-            background: rgba(9, 9, 11, 0.5);
-        }
-
-        ::-webkit-scrollbar-thumb {
-            background: linear-gradient(180deg, #f59e0b, #fbbf24);
-            border-radius: 4px;
-        }
-
-        ::-webkit-scrollbar-thumb:hover {
-            background: linear-gradient(180deg, #fbbf24, #f59e0b);
-        }
-
-        @media (max-width: 768px) {
-            h1 {
-                font-size: 2rem;
-            }
-
-            .intro-text {
-                font-size: 1rem;
-            }
-        }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Start Here - WRH Master Curriculum Pilot Overview">
+  <title>Start Here - WRH Master Curriculum</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
+  <!-- Header & Navigation -->
+  <header>
+    <div class="container">
+      <div class="logo">
+        <a href="index.html">WRH Master Curriculum</a>
+      </div>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">☰</button>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="start-here.html">Start Here</a></li>
+          <li><a href="capability-statement.html">Capability</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="resources.html">Resources</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-    <!-- Navigation -->
-    <nav class="sticky-nav sticky top-0 z-50 border-b border-zinc-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex justify-between h-16 items-center">
-                <div class="flex items-center">
-                    <a href="index.html" class="text-xl font-bold text-white tracking-tight font-display">
-                        WRH <span class="text-amber-400">Master</span>
-                    </a>
-                </div>
-                <div class="hidden md:flex space-x-8">
-                    <a href="index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Home</a>
-                    <a href="curriculum/index.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Curriculum</a>
-                    <a href="start-here.html" class="text-sm font-medium text-amber-400 hover:text-amber-300 transition-colors">Start Here</a>
-                    <a href="pilot-package.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Pilot Package</a>
-                    <a href="contact.html" class="text-sm font-medium hover:text-amber-400 transition-colors">Contact</a>
-                </div>
-            </div>
+  <!-- Breadcrumb -->
+  <section style="background-color: #f9fafb; padding: 1rem 0; border-bottom: 1px solid #e5e7eb;">
+    <div class="container">
+      <div class="breadcrumb">
+        <a href="index.html">Home</a>
+        <span>/</span>
+        <span>Start Here</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section>
+    <div class="container">
+      <h1>Start Here: WRH Pilot Overview</h1>
+      
+      <div class="alert alert-info">
+        <strong>Welcome to WRH Master Curriculum</strong> — Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.
+      </div>
+
+      <h2>What is WRH?</h2>
+      <p>WRH is <strong>structured, non-clinical education</strong> designed for individuals navigating trauma, institutional systems, and recovery. It is specifically designed for:</p>
+      <ul>
+        <li>Reentry populations (formerly incarcerated individuals)</li>
+        <li>Diversion programs (alternatives to incarceration)</li>
+        <li>Recovery support (substance use, behavioral health)</li>
+        <li>Veterans and military-connected populations</li>
+        <li>High-barrier rooms and underserved communities</li>
+      </ul>
+
+      <h2>What WRH Is NOT</h2>
+      <p>It is critical to understand what WRH does <strong>not</strong> provide:</p>
+      <ul>
+        <li><strong>Not therapy:</strong> WRH is educational, not therapeutic treatment</li>
+        <li><strong>Not diagnosis:</strong> We do not diagnose mental health conditions</li>
+        <li><strong>Not treatment:</strong> WRH does not replace clinical services</li>
+        <li><strong>Not medical:</strong> We do not provide medical or psychiatric intervention</li>
+      </ul>
+
+      <p>If you are experiencing a mental health crisis or need clinical support, please contact a qualified mental health professional or crisis line.</p>
+
+      <h2>Core Principles</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Safety First</h3>
+          <p>Clear protocols, trained facilitators, and crisis escalation procedures protect participant safety throughout all sessions.</p>
         </div>
-    </nav>
-
-    <!-- Main Content -->
-    <main class="py-20">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            <h1>Start Here</h1>
-            <p class="intro-text">Welcome to the What Really Happened™ Master Curriculum. This guide will help you understand the program structure and how to begin your journey.</p>
-
-            <!-- Core Purpose -->
-            <div class="premium-card">
-                <h2>Core Purpose</h2>
-                <p>WRH teaches trauma responses, addiction patterns, freeze responses, shame cycles, and survival behavior as <strong>predictable mechanisms</strong> — not character flaws. This is educational, not therapeutic, and requires no personal disclosure to participate.</p>
-                
-                <div class="feature-grid">
-                    <div class="feature-box">
-                        <h3>🎓 Non-Clinical</h3>
-                        <p>Psychoeducation focused on understanding, not diagnosis or treatment.</p>
-                    </div>
-                    <div class="feature-box">
-                        <h3>🔒 Private</h3>
-                        <p>No disclosure of personal trauma is required for participation.</p>
-                    </div>
-                    <div class="feature-box">
-                        <h3>📊 Evidence-Based</h3>
-                        <p>Grounded in neuroscience, trauma research, and behavioral adaptation theory.</p>
-                    </div>
-                    <div class="feature-box">
-                        <h3>🎯 Practical</h3>
-                        <p>Designed for real-world application in high-barrier environments.</p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Curriculum Structure -->
-            <div class="premium-card">
-                <h2>Curriculum Structure</h2>
-                <p>The WRH Master Curriculum is organized into four comprehensive parts, each building on the previous:</p>
-                
-                <div class="feature-grid">
-                    <div class="feature-box">
-                        <h3>Part I: Survival Wiring</h3>
-                        <p>26 sessions on trauma literacy, survival responses, and neurobiological adaptation.</p>
-                    </div>
-                    <div class="feature-box">
-                        <h3>Part II: Institutional Navigation</h3>
-                        <p>30 sessions on system interaction, reentry, and behavioral management.</p>
-                    </div>
-                    <div class="feature-box">
-                        <h3>Part III: Resilience & Agency</h3>
-                        <p>19 sessions on autonomy restoration and cross-system integration.</p>
-                    </div>
-                    <div class="feature-box">
-                        <h3>Part IV: Facilitation</h3>
-                        <p>Toolkit, protocols, safety frameworks, and certification pathways.</p>
-                    </div>
-                </div>
-                <p><strong>Session-count note:</strong> The master curriculum contains 76 sessions: 26 Part I sessions + 30 Part II sessions + 19 Part III sessions = 75 core sessions, plus Session 00 orientation.</p>
-            </div>
-            <!-- Getting Started -->
-            <div class="premium-card">
-                <h2>Ready to Begin?</h2>
-                <p>Start with Part I to build your foundational understanding of survival wiring and trauma literacy. Each session builds progressively, so sequential learning is recommended.</p>
-                <a href="curriculum/part-1.html" class="cta-button cta-button-primary">
-                    Begin with Part I
-                    <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-                    </svg>
-                </a>
-            </div>
-
-            <!-- Additional Resources -->
-            <div class="premium-card">
-                <h2>Additional Resources</h2>
-                <p>Explore more information about the program:</p>
-                
-                <div class="feature-grid">
-                    <a href="about.html" class="feature-box hover:text-amber-400 transition-colors" style="text-decoration: none;">
-                        <h3>About WRH</h3>
-                        <p>Learn about our mission, approach, and organizational background.</p>
-                    </a>
-                    <a href="resources.html" class="feature-box hover:text-amber-400 transition-colors" style="text-decoration: none;">
-                        <h3>Learning Resources</h3>
-                        <p>Access additional materials, crisis resources, and support information.</p>
-                    </a>
-                    <a href="capability-statement.html" class="feature-box hover:text-amber-400 transition-colors" style="text-decoration: none;">
-                        <h3>Capability Statement</h3>
-                        <p>Detailed overview of program capabilities and delivery options.</p>
-                    </a>
-                    <a href="contact.html" class="feature-box hover:text-amber-400 transition-colors" style="text-decoration: none;">
-                        <h3>Contact Us</h3>
-                        <p>Get in touch with our team for questions or inquiries.</p>
-                    </a>
-                </div>
-            </div>
+        <div class="card">
+          <h3>Evidence-Informed</h3>
+          <p>Curriculum is grounded in research on trauma, survival responses, and behavioral change.</p>
         </div>
-    </main>
+        <div class="card">
+          <h3>Measurable Outcomes</h3>
+          <p>Pilot programs track metrics, participant feedback, and continuous improvement.</p>
+        </div>
+        <div class="card">
+          <h3>Accessible Design</h3>
+          <p>Designed for high-barrier populations with limited literacy, technology access, or institutional experience.</p>
+        </div>
+      </div>
 
-    <!-- Footer -->
-    <footer>
-        <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.<br/>
-        UEI: HH77KN5AV5X7 | CAGE: 9ZFJ6</p>
-    </footer>
+      <h2>The Four-Part Curriculum</h2>
+      <p>WRH Master Curriculum is organized into four comprehensive parts:</p>
 
-    <script>
-        // Intersection Observer for fade-in animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -100px 0px'
-        };
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <h3>Part I: Survival Wiring & Trauma Literacy</h3>
+            <p><strong>Focus:</strong> Understanding how the brain and body respond to threat and trauma.</p>
+            <p><strong>Topics include:</strong></p>
+            <ul>
+              <li>Survival responses and nervous system activation</li>
+              <li>Freeze states and dissociation</li>
+              <li>Trauma-informed frameworks</li>
+              <li>Recognition and self-awareness</li>
+            </ul>
+            <p><a href="curriculum/part-1.html" class="btn btn-primary">Explore Part I</a></p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3>Part II: Institutional Systems & Reentry</h3>
+            <p><strong>Focus:</strong> Navigating complex systems and institutional environments.</p>
+            <p><strong>Topics include:</strong></p>
+            <ul>
+              <li>System navigation and reentry pathways</li>
+              <li>Institutional interaction strategies</li>
+              <li>Resource identification and access</li>
+              <li>Advocacy and self-representation</li>
+            </ul>
+            <p><a href="curriculum/part-2.html" class="btn btn-primary">Explore Part II</a></p>
+          </div>
+        </div>
+      </div>
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.style.opacity = '1';
-                    entry.target.style.transform = 'translateY(0)';
-                }
-            });
-        }, observerOptions);
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <h3>Part III: Resilience & Autonomy</h3>
+            <p><strong>Focus:</strong> Building agency and integrated behavioral-institutional systems.</p>
+            <p><strong>Topics include:</strong></p>
+            <ul>
+              <li>Autonomy restoration and agency development</li>
+              <li>Resilience as a systems outcome</li>
+              <li>Identity reclassification and reintegration</li>
+              <li>Integrated behavioral-institutional models</li>
+            </ul>
+            <p><a href="curriculum/part-3.html" class="btn btn-primary">Explore Part III</a></p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <h3>Part IV: Facilitation & Crisis Management</h3>
+            <p><strong>Focus:</strong> Training facilitators and managing crisis situations.</p>
+            <p><strong>Topics include:</strong></p>
+            <ul>
+              <li>Facilitator prerequisites and toolkit</li>
+              <li>Safety protocols and crisis response</li>
+              <li>Certification paths and compliance</li>
+              <li>Adverse event reporting and risk management</li>
+            </ul>
+            <p><a href="curriculum/part-4.html" class="btn btn-primary">Explore Part IV</a></p>
+          </div>
+        </div>
+      </div>
 
-        document.querySelectorAll('.premium-card').forEach(card => {
-            card.style.opacity = '0';
-            card.style.transform = 'translateY(20px)';
-            card.style.transition = 'all 0.6s ease-out';
-            observer.observe(card);
-        });
-    </script>
+      <h2>Getting Started</h2>
+      <p>Choose your path based on your role:</p>
+
+      <div class="card-grid">
+        <div class="card">
+          <h3>I'm a Participant</h3>
+          <p>Start with <strong>Part I</strong> to understand survival responses and trauma literacy. Progress through Parts II and III at your own pace.</p>
+          <p><a href="curriculum/part-1.html" class="btn btn-secondary">Start Learning</a></p>
+        </div>
+        <div class="card">
+          <h3>I'm a Facilitator</h3>
+          <p>Review all four parts, then focus on <strong>Part IV</strong> for facilitator training, safety protocols, and certification.</p>
+          <p><a href="curriculum/index.html" class="btn btn-secondary">View All Curriculum</a></p>
+        </div>
+        <div class="card">
+          <h3>I'm an Organization</h3>
+          <p>Explore our <strong>Pilot Package</strong> and <strong>Capability Statement</strong> to learn about implementation and partnership.</p>
+          <p><a href="pilot-package.html" class="btn btn-secondary">View Pilot Package</a></p>
+        </div>
+      </div>
+
+      <h2>Frequently Asked Questions</h2>
+      <div style="margin-top: 2rem;">
+        <div class="card" style="margin-bottom: 1rem;">
+          <h4>Is WRH right for me?</h4>
+          <p>WRH is designed for individuals interested in understanding trauma, survival responses, and institutional navigation. It is <strong>not</strong> a replacement for clinical mental health services. If you are in crisis or experiencing severe mental health symptoms, please seek professional help immediately.</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1rem;">
+          <h4>How long does the curriculum take?</h4>
+          <p>The full curriculum can be completed over several weeks to months, depending on your pace and context. Pilot programs typically run 12-16 weeks with weekly sessions.</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1rem;">
+          <h4>Do I need prior experience or education?</h4>
+          <p>No. WRH is designed to be accessible to all literacy levels and backgrounds. The curriculum is intentionally designed for high-barrier populations.</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1rem;">
+          <h4>What if I'm in crisis?</h4>
+          <p>WRH includes clear crisis protocols and escalation procedures. If you experience a crisis during a session, facilitators are trained to respond appropriately and connect you with emergency services if needed.</p>
+        </div>
+
+        <div class="card" style="margin-bottom: 1rem;">
+          <h4>Can I participate while working with a therapist?</h4>
+          <p>Yes. WRH is designed to complement, not replace, clinical services. We encourage participants to maintain relationships with their existing providers.</p>
+        </div>
+      </div>
+
+      <div style="margin-top: 3rem; padding: 2rem; background-color: #f9fafb; border-radius: 0.5rem; text-align: center;">
+        <h2>Ready to Begin?</h2>
+        <p style="font-size: 1.1rem; margin-bottom: 1.5rem;">Choose your starting point or contact us for more information.</p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="curriculum/part-1.html" class="btn btn-primary">Start with Part I</a>
+          <a href="curriculum/index.html" class="btn btn-secondary">View All Curriculum</a>
+          <a href="contact.html" class="btn btn-outline">Contact Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div>
+        <h4>WRH Master Curriculum</h4>
+        <p>Non-clinical survival-mode education with safety boundaries and measurable pilot delivery.</p>
+      </div>
+      <div>
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="curriculum/index.html">Curriculum</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="resources.html">Learning Resources</a></li>
+          <li><a href="capability-statement.html">Capability Statement</a></li>
+          <li><a href="pilot-package.html">Pilot Package</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="terms-of-use.html">Terms of Use</a></li>
+          <li><a href="license.html">License</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li><strong>Email:</strong> <a href="mailto:capitolcontracts@outlook.com">capitolcontracts@outlook.com</a></li>
+          <li><strong>Organization:</strong> Capitol Contracts LLC</li>
+          <li><strong>UEI:</strong> HH77KN5AV5X7</li>
+          <li><strong>CAGE:</strong> 9ZFJ6</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Capitol Contracts LLC. All rights reserved. What Really Happened™ is a trademark of Capitol Contracts LLC.</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
 </body>
 </html>
