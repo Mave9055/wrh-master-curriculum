@@ -1,4 +1,11 @@
 User-agent: *
-Allow: /
+Disallow: /Part-I/
+Disallow: /Part-II/
+Disallow: /Part-III/
+Disallow: /Part-IV/
+Disallow: /archive-imports/
+Disallow: /curriculum/session-viewer.html
+Disallow: /assets/data/sessions.json
+Disallow: /docs/
 
 Sitemap: https://daniel-lingar.github.io/wrh-master-curriculum/sitemap.xml
