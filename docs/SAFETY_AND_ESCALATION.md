@@ -1,16 +1,7 @@
-# WRH Safety and Escalation
+# WRH Safety and Escalation Status
 
-## Purpose
+WRH is not currently authorized for delivery. This public repository does not provide a crisis protocol.
 
-Define minimum safety controls and escalation expectations for WRH deployments.
+Before any future site delivers WRH, it must adopt and train to a site-specific protocol that covers emergency contacts, self-harm and violence concerns, overdose/intoxication/withdrawal, medical emergencies, reporting duties, domestic violence concerns, impaired departure, confidentiality limits, documentation, supervision, and referral pathways.
 
-## Minimum Requirements
-
-- Clear facilitator stop criteria for participant distress
-- Local crisis escalation contacts documented before launch
-- Referral pathway to licensed clinical support
-- Post-session facilitator decompression protocol
-
-## Scope Boundary
-
-WRH is psychoeducational and facilitator-led. It is not emergency psychiatric care.
+If there is immediate danger, use local emergency services. In the United States, call or text 988 for the Suicide & Crisis Lifeline.
